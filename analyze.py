@@ -53,7 +53,7 @@ class ExponentialGrowthRateEstimator(object):
         return np.array([self._exposure_adjustment_for_interval_length(delta_t) for delta_t in delta_ts])
 
     def _exposure_adjustment_for_interval_length(self, delta_t):
-        return np.log(np.sum(np.exp(self.approximate_beta * np.arange(delta_t)))) / (self.approximate_beta*delta_t)
+        return np.log(np.sum(np.exp(self.approximate_beta * np.arange(delta_t))) / delta_t) / self.approximate_beta
 
     def summary(self):
         if self.fitted_glm is None:
@@ -79,10 +79,10 @@ def test(active_cases=False):
     print(model.summary())
 
 def test_exposure_adjustment():
-    test_object = ExponentialGrowthRateEstimator()
+    test_object = ExponentialGrowthRateEstimator(approximate_beta=0.2)
     print(test_object._exposure_adjustment_for_interval_length(1))
-    print(test_object._exposure_adjustment_for_interval_length(2)/2.)
-    print(test_object._exposure_adjustment_for_interval_length(3)/3.)
+    print(test_object._exposure_adjustment_for_interval_length(2))
+    print(test_object._exposure_adjustment_for_interval_length(3))
 
 if __name__=="__main__":
     test_exposure_adjustment()
