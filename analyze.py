@@ -34,8 +34,11 @@ class ExponentialGrowthRateEstimator(object):
 
         covid_cases = cases - baseline
         if self.cumulative:
+            # Not totally convinced this is the right way to handle irregular intervals. It seems to work ok, though. It is robust, but I don't know how biased it is.
             covid_cases = np.diff(covid_cases)
-            exposure_adjustment = self._exposure_adjustment(np.diff(day))
+            exposure_lengths = np.diff(day)
+            covid_cases /= exposure_lengths
+            exposure_adjustment = self._exposure_adjustment(exposure_lengths)
             print(day)
             print(np.diff(day))
             print(exposure_adjustment)
@@ -50,7 +53,7 @@ class ExponentialGrowthRateEstimator(object):
         return np.array([self._exposure_adjustment_for_interval_length(delta_t) for delta_t in delta_ts])
 
     def _exposure_adjustment_for_interval_length(self, delta_t):
-        return np.log(np.sum(np.exp(self.approximate_beta * np.arange(delta_t)))) / self.approximate_beta
+        return np.log(np.sum(np.exp(self.approximate_beta * np.arange(delta_t)))) / (self.approximate_beta*delta_t)
 
     def summary(self):
         if self.fitted_glm is None:
