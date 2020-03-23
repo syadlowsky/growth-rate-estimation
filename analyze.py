@@ -47,9 +47,14 @@ class ExponentialGrowthRateEstimator(object):
             return "No model fit yet"
         return self.fitted_glm.summary()
 
+    def growth_rate(self):
+        if self.fitted_glm is None:
+            return "No model fit yet"
+        return np.exp(self.fitted_glm.params[0]) - 1
+
 
 def test(active_cases=False):
-    days = np.linspace(100, 130)
+    days = np.arange(100, 130)
     new_cases = np.random.poisson(np.exp(0.2 * days))
     total_cases = np.cumsum(new_cases)
     if active_cases:
