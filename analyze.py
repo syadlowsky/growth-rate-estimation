@@ -22,10 +22,11 @@ import numpy as np
 import statsmodels.api as sm
 
 class ExponentialGrowthRateEstimator(object):
-    def __init__(self, cumulative=True):
+    def __init__(self, cumulative=True, approximate_beta=0.2):
         self.cumulative = cumulative
         self.glm = None
         self.fitted_glm = None
+        self.approximate_beta = approximate_beta
 
     def fit(self, day, cases, baseline=None):
         if baseline is None:
@@ -34,13 +35,22 @@ class ExponentialGrowthRateEstimator(object):
         covid_cases = cases - baseline
         if self.cumulative:
             covid_cases = np.diff(covid_cases)
-            day = day[1:]
+            exposure_adjustment = self._exposure_adjustment(np.diff(day))
+            print(day)
+            print(np.diff(day))
+            print(exposure_adjustment)
+            day = day[1:] + exposure_adjustment
 
-        # note: consider using exposure input to subtract baseline cases, as this might automatically handle variance.
         self.glm = sm.GLM(covid_cases, day, family=sm.families.Poisson())
         self.fitted_glm = self.glm.fit()
 
         return self.fit
+
+    def _exposure_adjustment(self, delta_ts):
+        return np.array([self._exposure_adjustment_for_interval_length(delta_t) for delta_t in delta_ts])
+
+    def _exposure_adjustment_for_interval_length(self, delta_t):
+        return np.log(np.sum(np.exp(self.approximate_beta * np.arange(delta_t)))) / self.approximate_beta
 
     def summary(self):
         if self.fitted_glm is None:
@@ -65,7 +75,14 @@ def test(active_cases=False):
 
     print(model.summary())
 
+def test_exposure_adjustment():
+    test_object = ExponentialGrowthRateEstimator()
+    print(test_object._exposure_adjustment_for_interval_length(1))
+    print(test_object._exposure_adjustment_for_interval_length(2)/2.)
+    print(test_object._exposure_adjustment_for_interval_length(3)/3.)
+
 if __name__=="__main__":
+    test_exposure_adjustment()
     test()
     print("Notice that this method is pretty robust to only using active cases:")
     test(active_cases=True)
