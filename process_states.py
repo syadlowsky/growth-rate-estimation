@@ -39,7 +39,7 @@ def calculate_growth(series, thresh=10, start=5):
   keep = series >= start
   series = series[keep]
   days = days[keep]
-  model = analyze.ExponentialGrowthRateEstimator()
+  model = analyze.ExponentialGrowthRateEstimator(family='NegativeBinomial', alpha=None)
   model.fit(day=days, cases=series)
   est = model.growth_rate()
   low, high = model.growth_rate_confint()

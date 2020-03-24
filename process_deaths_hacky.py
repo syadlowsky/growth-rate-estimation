@@ -57,7 +57,8 @@ def calculate_growth(series, thresh=10, start=5):
   keep = series >= start
   series = series[keep]
   days = days[keep]
-  model = analyze.ExponentialGrowthRateEstimator()
+  #model = analyze.ExponentialGrowthRateEstimator()
+  model = analyze.ExponentialGrowthRateEstimator(family='NegativeBinomial', alpha=None)
   model.fit(day=days, cases=series)
   est = model.growth_rate()
   low, high = model.growth_rate_confint()
@@ -73,14 +74,15 @@ for k, v in region_counts.items():
 
 growths = dict()
 skip = ['Austria', 'Denmark', 'China']
-#dataset = chain(agg_counts.items(), region_counts.items()):
-dataset = us_counts.items()
+dataset = chain(agg_counts.items(), region_counts.items())
+#dataset = us_counts.items()
 for k, v in dataset:
   if k in skip:
     continue
   try:
     growth = calculate_growth(v, thresh = 20, start = 5)
     if growth:
+      print(' (for %s)' % k)
       growths[k] = growth
   except Exception:
     print('Failed to calculate for %s' % k)
@@ -94,7 +96,7 @@ err_h = list([v[2]-v[1] for v in to_plot.values()])
 errs = np.array([err_l, err_h])
 plt.rcParams['axes.axisbelow'] = True
 plt.bar(range(len(names)), ests, yerr=errs, align='center')
-plt.ylim([0,0.8])
+plt.ylim([0,0.4])
 plt.grid(axis='y')
 
 plt.xticks(range(len(names)), names)
