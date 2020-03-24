@@ -3,6 +3,7 @@ from collections import defaultdict
 import numpy as np
 from math import sqrt
 import analyze
+from itertools import chain
 
 f = open('data.csv')
 reader = csv.reader(f)
@@ -43,45 +44,27 @@ def calculate_growth(series, thresh=10):
   low, high = model.growth_rate_confint()
   return (max(low, 0), est, high)
 
-growths10 = dict()
-growths20 = dict()
-for k, v in agg_counts.items():
-  growths10[k] = calculate_growth(v, 100)
-  growths20[k] = calculate_growth(v, 20)
-for k, v in region_counts.items():
-  growths10[k] = calculate_growth(v, 100)
-  growths20[k] = calculate_growth(v, 20)
-growths2_10 = dict()
-growths2_20 = dict()
-for k, v in growths10.items():
-  if v:
-    growths2_10[k] = v
-for k, v in growths20.items():
-  if v:
-    growths2_20[k] = v
-us_growth = dict()
-for k, v in us_counts.items():
-  if k == 'King County, WA':
-    continue
-  g = calculate_growth(v)
-  if g and g[0] > 0:
-    us_growth[k] = g
+growths = dict()
+for k, v in chain(agg_counts.items(), region_counts.items()):
+  growth = calculate_growth(v, 5)
+  if growth:
+    growths[k] = growth
+#us_growth = dict()
+#for k, v in us_counts.items():
+#  if k == 'King County, WA':
+#    continue
+#  g = calculate_growth(v)
+#  if g and g[0] > 0:
+#    us_growth[k] = g
 
 import matplotlib.pyplot as plt
-to_plot = growths2_10
+to_plot = growths
 names = list(to_plot.keys())
 err_l = list([v[1]-v[0] for v in to_plot.values()])
 ests  = list([v[1] for v in to_plot.values()])
 err_h = list([v[2]-v[1] for v in to_plot.values()])
 errs = np.array([err_l, err_h])
 plt.bar(range(len(names)), ests, yerr=errs, align='center')
-#to_plot = growths2_20
-#names = list(to_plot.keys())
-#err_l = list([v[1]-v[0] for v in to_plot.values()])
-#ests  = list([v[1] for v in to_plot.values()])
-#err_h = list([v[2]-v[1] for v in to_plot.values()])
-#errs = np.array([err_l, err_h])
-#plt.bar(range(len(names)), ests, yerr=errs, align='center')
 
 plt.xticks(range(len(names)), names)
 plt.show()
