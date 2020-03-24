@@ -88,7 +88,6 @@ if __name__ == "__main__":
     # The rows are cities, the columns are time points.
     C = csv2dict(GLOBALCONFIRMED)
     D = csv2dict(GLOBALDEATHS)
-    pdb.set_trace()
     C_D = csv2dict(DEPRCONFIRMED)
     D_D = csv2dict(DEPRDEATHS)
     R_D = csv2dict(DEPRRECOVERED)
