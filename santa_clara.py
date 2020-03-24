@@ -12,7 +12,7 @@ days = np.array([2, 3, 12, 13, 14, 15, 17, 18, 19, 20, 21])
 
 print(cases, days)
 
-model = analyze.ExponentialGrowthRateEstimator(cumulative=True)
+model = analyze.ExponentialGrowthRateEstimator(cumulative=True, approximate_beta=0.12)
 model.fit(days, cases)
 print(model.summary())
 print("Growth rate is {}".format(model.growth_rate()))
