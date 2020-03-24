@@ -22,11 +22,13 @@ import numpy as np
 import statsmodels.api as sm
 
 class ExponentialGrowthRateEstimator(object):
-    def __init__(self, cumulative=True, approximate_beta=0.2):
+    def __init__(self, cumulative=True, approximate_beta=0.2, family="Poisson", alpha=0.15):
         self.cumulative = cumulative
         self.glm = None
         self.fitted_glm = None
         self.approximate_beta = approximate_beta
+        self.family = family
+        self.alpha = alpha
 
     def fit(self, day, cases, baseline=None):
         if baseline is None:
@@ -41,7 +43,11 @@ class ExponentialGrowthRateEstimator(object):
             exposure_adjustment = self._exposure_adjustment(exposure_lengths)
             day = day[1:] + exposure_adjustment
 
-        self.glm = sm.GLM(covid_cases, sm.add_constant(day), family=sm.families.Poisson())
+        if self.family == "Poisson":
+            fam = sm.families.Poisson()
+        else:
+            fam = sm.families.NegativeBinomial(alpha=self.alpha)
+        self.glm = sm.GLM(covid_cases, sm.add_constant(day), family=fam)
         self.fitted_glm = self.glm.fit()
 
         return self.fit
