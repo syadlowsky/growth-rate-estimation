@@ -60,6 +60,8 @@ def calculate_growth(series, thresh=10, start=5):
   #model = analyze.ExponentialGrowthRateEstimator()
   model = analyze.ExponentialGrowthRateEstimator(family='NegativeBinomial', alpha=None)
   model.fit(day=days, cases=series)
+  print(series[1:]-series[:-1])
+  print(model.fitted_glm.mu)
   est = model.growth_rate()
   low, high = model.growth_rate_confint()
   return (max(low, 0), est, high)
