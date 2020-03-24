@@ -5,13 +5,14 @@ from math import sqrt
 import analyze
 from itertools import chain
 
-f = open('data.csv')
+f = open('data/time_series_covid19_deaths_global.csv')
 reader = csv.reader(f)
 first = True
 rows = []
 
+num_cols = 62
 def default():
-  return np.zeros(shape=(59,))
+  return np.zeros(shape=(num_cols,))
 province_counts = defaultdict(default)
 agg_counts = defaultdict(default)
 region_counts = defaultdict(default)
@@ -45,10 +46,16 @@ def calculate_growth(series, thresh=10, start=5):
   return (max(low, 0), est, high)
 
 growths = dict()
+skip = ['Austria', 'Denmark', 'China']
 for k, v in chain(agg_counts.items(), region_counts.items()):
-  growth = calculate_growth(v, thresh = 20, start = 5)
-  if growth:
-    growths[k] = growth
+  if k in skip:
+    continue
+  try:
+    growth = calculate_growth(v, thresh = 20, start = 5)
+    if growth:
+      growths[k] = growth
+  except Exception:
+    print('Failed to calculate for %s' % k)
 #us_growth = dict()
 #for k, v in us_counts.items():
 #  if k == 'King County, WA':
@@ -64,7 +71,10 @@ err_l = list([v[1]-v[0] for v in to_plot.values()])
 ests  = list([v[1] for v in to_plot.values()])
 err_h = list([v[2]-v[1] for v in to_plot.values()])
 errs = np.array([err_l, err_h])
+plt.rcParams['axes.axisbelow'] = True
 plt.bar(range(len(names)), ests, yerr=errs, align='center')
+plt.ylim([0,0.4])
+plt.grid(axis='y')
 
 plt.xticks(range(len(names)), names)
 plt.show()
