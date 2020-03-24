@@ -39,9 +39,6 @@ class ExponentialGrowthRateEstimator(object):
             exposure_lengths = np.diff(day)
             covid_cases /= exposure_lengths
             exposure_adjustment = self._exposure_adjustment(exposure_lengths)
-            print(day)
-            print(np.diff(day))
-            print(exposure_adjustment)
             day = day[1:] + exposure_adjustment
 
         self.glm = sm.GLM(covid_cases, sm.add_constant(day), family=sm.families.Poisson())
@@ -64,6 +61,12 @@ class ExponentialGrowthRateEstimator(object):
         if self.fitted_glm is None:
             return "No model fit yet"
         return np.exp(self.fitted_glm.params[1]) - 1
+
+    def growth_rate_confint(self):
+        if self.fitted_glm is None:
+            return "No model fit yet"
+        confint = self.fitted_glm.conf_int(cols=(1,))
+        return np.exp(confint[0, 0]) - 1, np.exp(confint[0, 1]) - 1
 
 
 def test(active_cases=False):

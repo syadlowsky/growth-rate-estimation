@@ -2,6 +2,8 @@ import csv
 from collections import defaultdict
 import numpy as np
 from math import sqrt
+import analyze
+
 f = open('data.csv')
 reader = csv.reader(f)
 first = True
@@ -29,15 +31,16 @@ for row in reader:
       us_counts[row[0]] = series
 
 def calculate_growth(series, thresh=10):
-  t = 0
-  while t < 58 and series[t] < thresh:
-    t += 1
-  if t == 58:
+  days = np.arange(0, series.shape[0])
+  if ((series < thresh).all()):
     return None
-  days = 58-t
-  est  = (series[58] / series[t]) ** (1.0/days) - 1.0
-  low  = ((series[58] - sqrt(series[58])) / (series[t] + sqrt(series[t]))) ** (1.0/days) - 1.0
-  high = ((series[58] + sqrt(series[58])) / (series[t] - sqrt(series[t]))) ** (1.0/days) - 1.0
+  keep = series > 0
+  series = series[keep]
+  days = days[keep]
+  model = analyze.ExponentialGrowthRateEstimator()
+  model.fit(day=days, cases=series)
+  est = model.growth_rate()
+  low, high = model.growth_rate_confint()
   return (max(low, 0), est, high)
 
 growths10 = dict()
