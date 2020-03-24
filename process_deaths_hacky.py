@@ -31,11 +31,11 @@ for row in reader:
     if row[1] == 'US':
       us_counts[row[0]] = series
 
-def calculate_growth(series, thresh=10):
+def calculate_growth(series, thresh=10, start=5):
   days = np.arange(0, series.shape[0])
   if ((series < thresh).all()):
     return None
-  keep = series > 0
+  keep = series >= start
   series = series[keep]
   days = days[keep]
   model = analyze.ExponentialGrowthRateEstimator()
@@ -46,7 +46,7 @@ def calculate_growth(series, thresh=10):
 
 growths = dict()
 for k, v in chain(agg_counts.items(), region_counts.items()):
-  growth = calculate_growth(v, 5)
+  growth = calculate_growth(v, thresh = 20, start = 5)
   if growth:
     growths[k] = growth
 #us_growth = dict()
