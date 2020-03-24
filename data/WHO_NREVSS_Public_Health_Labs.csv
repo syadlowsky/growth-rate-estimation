@@ -1,0 +1,56 @@
+"*Beginning for the 2015-16 season, reports from public health and clinical laboratories are presented separately in the weekly influenza update, FluView.  Data presented from public health laboratories include the weekly total number of specimens tested, the number of positive influenza tests, and the number by influenza virus type, subtype, and influenza B lineage."
+REGION TYPE,REGION,SEASON_DESCRIPTION,TOTAL SPECIMENS,A (2009 H1N1),A (H3),A (Subtyping not Performed),B,BVic,BYam,H3N2v
+States,Alabama,Season 2019-20,552,170,6,0,4,122,0,0
+States,Alaska,Season 2019-20,1519,94,25,6,365,0,0,0
+States,Arizona,Season 2019-20,1341,474,25,0,38,532,7,0
+States,Arkansas,Season 2019-20,373,122,1,3,41,45,0,0
+States,California,Season 2019-20,8246,2916,262,158,470,1701,34,0
+States,Colorado,Season 2019-20,1100,463,51,6,119,180,0,0
+States,Connecticut,Season 2019-20,1162,238,56,0,2,366,13,0
+States,Delaware,Season 2019-20,2439,450,20,9,32,351,2,0
+States,District of Columbia,Season 2019-20,848,128,17,0,0,115,1,0
+States,Florida,Season 2019-20,X,X,X,X,X,X,X,X
+States,Georgia,Season 2019-20,1669,605,12,4,58,280,3,0
+States,Hawaii,Season 2019-20,2456,1086,60,16,3,374,1,0
+States,Idaho,Season 2019-20,1849,429,77,2,49,872,12,0
+States,Illinois,Season 2019-20,2096,288,20,57,143,251,0,0
+States,Indiana,Season 2019-20,688,246,4,2,19,237,5,0
+States,Iowa,Season 2019-20,2212,498,60,28,15,620,4,0
+States,Kansas,Season 2019-20,202,66,0,2,17,7,0,0
+States,Kentucky,Season 2019-20,364,115,2,0,8,86,3,0
+States,Louisiana,Season 2019-20,1197,179,42,1,5,276,0,0
+States,Maine,Season 2019-20,704,217,27,0,3,198,4,0
+States,Maryland,Season 2019-20,5251,1794,117,2,16,1348,18,0
+States,Massachusetts,Season 2019-20,591,310,28,1,18,5,0,0
+States,Michigan,Season 2019-20,934,358,31,2,105,270,0,0
+States,Minnesota,Season 2019-20,2450,824,22,33,12,426,24,0
+States,Mississippi,Season 2019-20,794,221,19,0,1,171,0,0
+States,Missouri,Season 2019-20,356,49,2,0,36,30,0,0
+States,Montana,Season 2019-20,1055,156,43,1,110,170,0,0
+States,Nebraska,Season 2019-20,294,104,4,0,10,27,2,0
+States,Nevada,Season 2019-20,914,258,34,1,157,130,0,0
+States,New Hampshire,Season 2019-20,266,71,14,3,1,60,1,0
+States,New Jersey,Season 2019-20,649,145,39,3,33,6,0,0
+States,New Mexico,Season 2019-20,1304,337,9,6,24,317,1,0
+States,New York,Season 2019-20,1813,463,78,8,209,185,22,0
+States,North Carolina,Season 2019-20,999,191,17,1,26,157,7,0
+States,North Dakota,Season 2019-20,812,234,20,2,59,378,2,0
+States,Ohio,Season 2019-20,2185,709,14,4,222,340,0,0
+States,Oklahoma,Season 2019-20,816,154,2,3,85,56,0,0
+States,Oregon,Season 2019-20,487,64,6,0,264,51,1,0
+States,Pennsylvania,Season 2019-20,1690,246,46,6,304,33,1,0
+States,Rhode Island,Season 2019-20,268,75,10,0,2,27,0,0
+States,South Carolina,Season 2019-20,1400,422,17,2,65,256,6,0
+States,South Dakota,Season 2019-20,1340,447,6,10,41,413,3,0
+States,Tennessee,Season 2019-20,1291,234,5,1,0,103,1,0
+States,Texas,Season 2019-20,2164,476,22,11,232,180,0,0
+States,Utah,Season 2019-20,915,418,18,2,22,249,6,0
+States,Vermont,Season 2019-20,167,78,26,1,0,29,0,0
+States,Virginia,Season 2019-20,1722,447,27,3,153,406,4,0
+States,Washington,Season 2019-20,1017,222,37,27,184,196,3,0
+States,West Virginia,Season 2019-20,472,171,1,0,0,169,0,0
+States,Wisconsin,Season 2019-20,3690,316,84,185,15,540,10,0
+States,Wyoming,Season 2019-20,213,51,0,1,3,25,0,0
+States,Puerto Rico,Season 2019-20,455,127,49,0,33,65,6,0
+States,Virgin Islands,Season 2019-20,X,X,X,X,X,X,X,X
+States,New York City,Season 2019-20,X,X,X,X,X,X,X,X

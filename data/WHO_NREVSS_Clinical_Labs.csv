@@ -1,0 +1,1298 @@
+"*Beginning for the 2015-16 season, reports from public health and clinical laboratories are presented separately in the weekly influenza update, FluView. Data from clinical laboratories include the weekly total number of specimens tested, the number of positive influenza test, and the percent positive by influenza type."
+REGION TYPE,REGION,YEAR,WEEK,TOTAL SPECIMENS,TOTAL A,TOTAL B,PERCENT POSITIVE,PERCENT A,PERCENT B
+States,Alabama,2019,40,512,2,13,2.93,0.39,2.54
+States,Alaska,2019,40,X,X,X,X,X,X
+States,Arizona,2019,40,278,0,2,0.72,0,0.72
+States,Arkansas,2019,40,89,0,0,0,0,0
+States,California,2019,40,1776,18,10,1.58,1.01,0.56
+States,Colorado,2019,40,458,2,0,0.44,0.44,0
+States,Connecticut,2019,40,475,1,0,0.21,0.21,0
+States,Delaware,2019,40,184,4,1,2.72,2.17,0.54
+States,District of Columbia,2019,40,X,X,X,X,X,X
+States,Florida,2019,40,X,X,X,X,X,X
+States,Georgia,2019,40,874,8,16,2.75,0.92,1.83
+States,Hawaii,2019,40,310,3,8,3.55,0.97,2.58
+States,Idaho,2019,40,59,0,0,0,0,0
+States,Illinois,2019,40,207,1,1,0.97,0.48,0.48
+States,Indiana,2019,40,168,1,0,0.6,0.6,0
+States,Iowa,2019,40,225,0,0,0,0,0
+States,Kansas,2019,40,62,0,0,0,0,0
+States,Kentucky,2019,40,388,1,0,0.26,0.26,0
+States,Louisiana,2019,40,443,2,14,3.61,0.45,3.16
+States,Maine,2019,40,34,0,0,0,0,0
+States,Maryland,2019,40,136,1,3,2.94,0.74,2.21
+States,Massachusetts,2019,40,481,2,0,0.42,0.42,0
+States,Michigan,2019,40,1025,5,3,0.78,0.49,0.29
+States,Minnesota,2019,40,269,0,0,0,0,0
+States,Mississippi,2019,40,44,0,1,2.27,0,2.27
+States,Missouri,2019,40,722,2,1,0.42,0.28,0.14
+States,Montana,2019,40,99,2,0,2.02,2.02,0
+States,Nebraska,2019,40,62,0,0,0,0,0
+States,Nevada,2019,40,X,X,X,X,X,X
+States,New Hampshire,2019,40,X,X,X,X,X,X
+States,New Jersey,2019,40,X,X,X,X,X,X
+States,New Mexico,2019,40,247,1,0,0.4,0.4,0
+States,New York,2019,40,1354,4,0,0.3,0.3,0
+States,North Carolina,2019,40,208,2,0,0.96,0.96,0
+States,North Dakota,2019,40,118,0,2,1.69,0,1.69
+States,Ohio,2019,40,1318,1,3,0.3,0.08,0.23
+States,Oklahoma,2019,40,194,0,0,0,0,0
+States,Oregon,2019,40,770,7,4,1.43,0.91,0.52
+States,Pennsylvania,2019,40,201,0,0,0,0,0
+States,Rhode Island,2019,40,X,X,X,X,X,X
+States,South Carolina,2019,40,212,0,0,0,0,0
+States,South Dakota,2019,40,53,0,0,0,0,0
+States,Tennessee,2019,40,35,0,0,0,0,0
+States,Texas,2019,40,1720,21,32,3.08,1.22,1.86
+States,Utah,2019,40,369,8,1,2.44,2.17,0.27
+States,Vermont,2019,40,67,0,0,0,0,0
+States,Virginia,2019,40,231,0,0,0,0,0
+States,Washington,2019,40,900,13,1,1.56,1.44,0.11
+States,West Virginia,2019,40,367,0,0,0,0,0
+States,Wisconsin,2019,40,838,4,0,0.48,0.48,0
+States,Wyoming,2019,40,X,X,X,X,X,X
+States,Puerto Rico,2019,40,0,0,0,0,0,0
+States,Virgin Islands,2019,40,X,X,X,X,X,X
+States,New York City,2019,40,X,X,X,X,X,X
+States,Alabama,2019,41,498,4,13,3.41,0.8,2.61
+States,Alaska,2019,41,X,X,X,X,X,X
+States,Arizona,2019,41,273,3,5,2.93,1.1,1.83
+States,Arkansas,2019,41,94,1,1,2.13,1.06,1.06
+States,California,2019,41,1887,26,11,1.96,1.38,0.58
+States,Colorado,2019,41,441,7,3,2.27,1.59,0.68
+States,Connecticut,2019,41,466,0,0,0,0,0
+States,Delaware,2019,41,218,1,3,1.83,0.46,1.38
+States,District of Columbia,2019,41,X,X,X,X,X,X
+States,Florida,2019,41,X,X,X,X,X,X
+States,Georgia,2019,41,875,11,16,3.09,1.26,1.83
+States,Hawaii,2019,41,334,4,2,1.8,1.2,0.6
+States,Idaho,2019,41,60,1,2,5,1.67,3.33
+States,Illinois,2019,41,261,5,2,2.68,1.92,0.77
+States,Indiana,2019,41,183,1,0,0.55,0.55,0
+States,Iowa,2019,41,235,4,0,1.7,1.7,0
+States,Kansas,2019,41,84,0,0,0,0,0
+States,Kentucky,2019,41,425,0,0,0,0,0
+States,Louisiana,2019,41,608,4,20,3.95,0.66,3.29
+States,Maine,2019,41,42,0,0,0,0,0
+States,Maryland,2019,41,133,0,1,0.75,0,0.75
+States,Massachusetts,2019,41,577,8,2,1.73,1.39,0.35
+States,Michigan,2019,41,1087,1,0,0.09,0.09,0
+States,Minnesota,2019,41,325,1,0,0.31,0.31,0
+States,Mississippi,2019,41,59,0,0,0,0,0
+States,Missouri,2019,41,865,3,0,0.35,0.35,0
+States,Montana,2019,41,123,0,0,0,0,0
+States,Nebraska,2019,41,59,0,0,0,0,0
+States,Nevada,2019,41,15,0,1,6.67,0,6.67
+States,New Hampshire,2019,41,X,X,X,X,X,X
+States,New Jersey,2019,41,X,X,X,X,X,X
+States,New Mexico,2019,41,252,0,0,0,0,0
+States,New York,2019,41,1479,6,4,0.68,0.41,0.27
+States,North Carolina,2019,41,242,1,1,0.83,0.41,0.41
+States,North Dakota,2019,41,153,0,1,0.65,0,0.65
+States,Ohio,2019,41,1457,2,3,0.34,0.14,0.21
+States,Oklahoma,2019,41,249,0,0,0,0,0
+States,Oregon,2019,41,1106,4,3,0.63,0.36,0.27
+States,Pennsylvania,2019,41,247,0,0,0,0,0
+States,Rhode Island,2019,41,X,X,X,X,X,X
+States,South Carolina,2019,41,222,0,1,0.45,0,0.45
+States,South Dakota,2019,41,57,0,0,0,0,0
+States,Tennessee,2019,41,36,0,2,5.56,0,5.56
+States,Texas,2019,41,2065,12,52,3.1,0.58,2.52
+States,Utah,2019,41,374,3,1,1.07,0.8,0.27
+States,Vermont,2019,41,88,0,0,0,0,0
+States,Virginia,2019,41,237,0,0,0,0,0
+States,Washington,2019,41,984,8,3,1.12,0.81,0.3
+States,West Virginia,2019,41,336,0,1,0.3,0,0.3
+States,Wisconsin,2019,41,809,4,0,0.49,0.49,0
+States,Wyoming,2019,41,X,X,X,X,X,X
+States,Puerto Rico,2019,41,0,0,0,0,0,0
+States,Virgin Islands,2019,41,X,X,X,X,X,X
+States,New York City,2019,41,X,X,X,X,X,X
+States,Alabama,2019,42,527,1,5,1.14,0.19,0.95
+States,Alaska,2019,42,X,X,X,X,X,X
+States,Arizona,2019,42,249,2,3,2.01,0.8,1.2
+States,Arkansas,2019,42,109,0,1,0.92,0,0.92
+States,California,2019,42,1995,27,14,2.06,1.35,0.7
+States,Colorado,2019,42,530,5,6,2.08,0.94,1.13
+States,Connecticut,2019,42,473,3,0,0.63,0.63,0
+States,Delaware,2019,42,211,6,1,3.32,2.84,0.47
+States,District of Columbia,2019,42,X,X,X,X,X,X
+States,Florida,2019,42,X,X,X,X,X,X
+States,Georgia,2019,42,1020,11,14,2.45,1.08,1.37
+States,Hawaii,2019,42,288,9,7,5.56,3.13,2.43
+States,Idaho,2019,42,70,3,2,7.14,4.29,2.86
+States,Illinois,2019,42,256,0,0,0,0,0
+States,Indiana,2019,42,151,0,0,0,0,0
+States,Iowa,2019,42,278,0,0,0,0,0
+States,Kansas,2019,42,81,0,0,0,0,0
+States,Kentucky,2019,42,469,2,0,0.43,0.43,0
+States,Louisiana,2019,42,524,4,34,7.25,0.76,6.49
+States,Maine,2019,42,44,0,0,0,0,0
+States,Maryland,2019,42,181,1,1,1.1,0.55,0.55
+States,Massachusetts,2019,42,540,2,0,0.37,0.37,0
+States,Michigan,2019,42,1251,5,2,0.56,0.4,0.16
+States,Minnesota,2019,42,375,2,1,0.8,0.53,0.27
+States,Mississippi,2019,42,56,0,3,5.36,0,5.36
+States,Missouri,2019,42,929,0,0,0,0,0
+States,Montana,2019,42,109,0,1,0.92,0,0.92
+States,Nebraska,2019,42,77,0,0,0,0,0
+States,Nevada,2019,42,X,X,X,X,X,X
+States,New Hampshire,2019,42,X,X,X,X,X,X
+States,New Jersey,2019,42,X,X,X,X,X,X
+States,New Mexico,2019,42,297,0,0,0,0,0
+States,New York,2019,42,1559,4,2,0.38,0.26,0.13
+States,North Carolina,2019,42,222,1,1,0.9,0.45,0.45
+States,North Dakota,2019,42,162,0,5,3.09,0,3.09
+States,Ohio,2019,42,1475,2,5,0.47,0.14,0.34
+States,Oklahoma,2019,42,224,0,0,0,0,0
+States,Oregon,2019,42,991,8,2,1.01,0.81,0.2
+States,Pennsylvania,2019,42,292,0,0,0,0,0
+States,Rhode Island,2019,42,X,X,X,X,X,X
+States,South Carolina,2019,42,229,1,0,0.44,0.44,0
+States,South Dakota,2019,42,61,0,0,0,0,0
+States,Tennessee,2019,42,39,0,0,0,0,0
+States,Texas,2019,42,2179,22,60,3.76,1.01,2.75
+States,Utah,2019,42,467,5,1,1.28,1.07,0.21
+States,Vermont,2019,42,94,0,0,0,0,0
+States,Virginia,2019,42,283,1,0,0.35,0.35,0
+States,Washington,2019,42,970,13,4,1.75,1.34,0.41
+States,West Virginia,2019,42,422,1,0,0.24,0.24,0
+States,Wisconsin,2019,42,906,4,1,0.55,0.44,0.11
+States,Wyoming,2019,42,X,X,X,X,X,X
+States,Puerto Rico,2019,42,0,0,0,0,0,0
+States,Virgin Islands,2019,42,X,X,X,X,X,X
+States,New York City,2019,42,X,X,X,X,X,X
+States,Alabama,2019,43,529,0,16,3.02,0,3.02
+States,Alaska,2019,43,X,X,X,X,X,X
+States,Arizona,2019,43,265,2,4,2.26,0.75,1.51
+States,Arkansas,2019,43,122,1,2,2.46,0.82,1.64
+States,California,2019,43,1964,24,33,2.9,1.22,1.68
+States,Colorado,2019,43,541,6,2,1.48,1.11,0.37
+States,Connecticut,2019,43,560,5,0,0.89,0.89,0
+States,Delaware,2019,43,211,1,5,2.84,0.47,2.37
+States,District of Columbia,2019,43,X,X,X,X,X,X
+States,Florida,2019,43,X,X,X,X,X,X
+States,Georgia,2019,43,1139,16,34,4.39,1.4,2.99
+States,Hawaii,2019,43,346,9,3,3.47,2.6,0.87
+States,Idaho,2019,43,71,10,1,15.49,14.08,1.41
+States,Illinois,2019,43,332,2,1,0.9,0.6,0.3
+States,Indiana,2019,43,224,0,2,0.89,0,0.89
+States,Iowa,2019,43,244,0,0,0,0,0
+States,Kansas,2019,43,76,0,0,0,0,0
+States,Kentucky,2019,43,518,0,1,0.19,0,0.19
+States,Louisiana,2019,43,573,3,50,9.25,0.52,8.73
+States,Maine,2019,43,57,0,0,0,0,0
+States,Maryland,2019,43,231,0,2,0.87,0,0.87
+States,Massachusetts,2019,43,588,4,3,1.19,0.68,0.51
+States,Michigan,2019,43,1335,9,7,1.2,0.67,0.52
+States,Minnesota,2019,43,312,1,1,0.64,0.32,0.32
+States,Mississippi,2019,43,67,1,1,2.99,1.49,1.49
+States,Missouri,2019,43,1037,2,0,0.19,0.19,0
+States,Montana,2019,43,108,1,1,1.85,0.93,0.93
+States,Nebraska,2019,43,97,1,0,1.03,1.03,0
+States,Nevada,2019,43,34,1,2,8.82,2.94,5.88
+States,New Hampshire,2019,43,X,X,X,X,X,X
+States,New Jersey,2019,43,X,X,X,X,X,X
+States,New Mexico,2019,43,X,X,X,X,X,X
+States,New York,2019,43,1660,7,7,0.84,0.42,0.42
+States,North Carolina,2019,43,217,3,0,1.38,1.38,0
+States,North Dakota,2019,43,172,0,11,6.4,0,6.4
+States,Ohio,2019,43,1756,3,5,0.46,0.17,0.28
+States,Oklahoma,2019,43,192,0,0,0,0,0
+States,Oregon,2019,43,1029,3,7,0.97,0.29,0.68
+States,Pennsylvania,2019,43,300,1,0,0.33,0.33,0
+States,Rhode Island,2019,43,X,X,X,X,X,X
+States,South Carolina,2019,43,312,2,2,1.28,0.64,0.64
+States,South Dakota,2019,43,70,0,0,0,0,0
+States,Tennessee,2019,43,54,0,0,0,0,0
+States,Texas,2019,43,2553,29,117,5.72,1.14,4.58
+States,Utah,2019,43,448,5,1,1.34,1.12,0.22
+States,Vermont,2019,43,75,0,0,0,0,0
+States,Virginia,2019,43,297,1,0,0.34,0.34,0
+States,Washington,2019,43,889,4,6,1.12,0.45,0.67
+States,West Virginia,2019,43,461,1,2,0.65,0.22,0.43
+States,Wisconsin,2019,43,1074,5,3,0.74,0.47,0.28
+States,Wyoming,2019,43,X,X,X,X,X,X
+States,Puerto Rico,2019,43,0,0,0,0,0,0
+States,Virgin Islands,2019,43,X,X,X,X,X,X
+States,New York City,2019,43,X,X,X,X,X,X
+States,Alabama,2019,44,524,3,18,4.01,0.57,3.44
+States,Alaska,2019,44,X,X,X,X,X,X
+States,Arizona,2019,44,239,1,2,1.26,0.42,0.84
+States,Arkansas,2019,44,136,1,2,2.21,0.74,1.47
+States,California,2019,44,2061,44,56,4.85,2.13,2.72
+States,Colorado,2019,44,511,7,6,2.54,1.37,1.17
+States,Connecticut,2019,44,569,3,0,0.53,0.53,0
+States,Delaware,2019,44,200,0,1,0.5,0,0.5
+States,District of Columbia,2019,44,X,X,X,X,X,X
+States,Florida,2019,44,X,X,X,X,X,X
+States,Georgia,2019,44,1212,20,41,5.03,1.65,3.38
+States,Hawaii,2019,44,335,4,4,2.39,1.19,1.19
+States,Idaho,2019,44,95,3,2,5.26,3.16,2.11
+States,Illinois,2019,44,317,3,2,1.58,0.95,0.63
+States,Indiana,2019,44,215,0,1,0.47,0,0.47
+States,Iowa,2019,44,205,1,0,0.49,0.49,0
+States,Kansas,2019,44,79,0,0,0,0,0
+States,Kentucky,2019,44,524,1,2,0.57,0.19,0.38
+States,Louisiana,2019,44,653,6,70,11.64,0.92,10.72
+States,Maine,2019,44,57,0,0,0,0,0
+States,Maryland,2019,44,179,2,2,2.23,1.12,1.12
+States,Massachusetts,2019,44,527,1,1,0.38,0.19,0.19
+States,Michigan,2019,44,1287,3,3,0.47,0.23,0.23
+States,Minnesota,2019,44,353,2,1,0.85,0.57,0.28
+States,Mississippi,2019,44,85,0,0,0,0,0
+States,Missouri,2019,44,1097,2,2,0.36,0.18,0.18
+States,Montana,2019,44,110,0,0,0,0,0
+States,Nebraska,2019,44,81,0,0,0,0,0
+States,Nevada,2019,44,X,X,X,X,X,X
+States,New Hampshire,2019,44,X,X,X,X,X,X
+States,New Jersey,2019,44,X,X,X,X,X,X
+States,New Mexico,2019,44,330,1,2,0.91,0.3,0.61
+States,New York,2019,44,1684,15,5,1.19,0.89,0.3
+States,North Carolina,2019,44,247,7,0,2.83,2.83,0
+States,North Dakota,2019,44,161,0,12,7.45,0,7.45
+States,Ohio,2019,44,1855,6,8,0.75,0.32,0.43
+States,Oklahoma,2019,44,255,1,0,0.39,0.39,0
+States,Oregon,2019,44,1046,10,15,2.39,0.96,1.43
+States,Pennsylvania,2019,44,341,0,0,0,0,0
+States,Rhode Island,2019,44,X,X,X,X,X,X
+States,South Carolina,2019,44,354,0,2,0.56,0,0.56
+States,South Dakota,2019,44,64,0,0,0,0,0
+States,Tennessee,2019,44,56,1,0,1.79,1.79,0
+States,Texas,2019,44,2482,34,250,11.44,1.37,10.07
+States,Utah,2019,44,450,4,1,1.11,0.89,0.22
+States,Vermont,2019,44,95,0,1,1.05,0,1.05
+States,Virginia,2019,44,291,1,1,0.69,0.34,0.34
+States,Washington,2019,44,937,5,10,1.6,0.53,1.07
+States,West Virginia,2019,44,494,1,1,0.4,0.2,0.2
+States,Wisconsin,2019,44,1099,4,4,0.73,0.36,0.36
+States,Wyoming,2019,44,X,X,X,X,X,X
+States,Puerto Rico,2019,44,0,0,0,0,0,0
+States,Virgin Islands,2019,44,X,X,X,X,X,X
+States,New York City,2019,44,X,X,X,X,X,X
+States,Alabama,2019,45,635,4,15,2.99,0.63,2.36
+States,Alaska,2019,45,X,X,X,X,X,X
+States,Arizona,2019,45,223,2,4,2.69,0.9,1.79
+States,Arkansas,2019,45,163,1,3,2.45,0.61,1.84
+States,California,2019,45,2603,125,135,9.99,4.8,5.19
+States,Colorado,2019,45,573,15,9,4.19,2.62,1.57
+States,Connecticut,2019,45,583,4,1,0.86,0.69,0.17
+States,Delaware,2019,45,250,2,7,3.6,0.8,2.8
+States,District of Columbia,2019,45,X,X,X,X,X,X
+States,Florida,2019,45,X,X,X,X,X,X
+States,Georgia,2019,45,1398,25,49,5.29,1.79,3.51
+States,Hawaii,2019,45,449,14,5,4.23,3.12,1.11
+States,Idaho,2019,45,62,0,2,3.23,0,3.23
+States,Illinois,2019,45,323,3,2,1.55,0.93,0.62
+States,Indiana,2019,45,234,3,3,2.56,1.28,1.28
+States,Iowa,2019,45,246,2,1,1.22,0.81,0.41
+States,Kansas,2019,45,85,0,0,0,0,0
+States,Kentucky,2019,45,641,6,2,1.25,0.94,0.31
+States,Louisiana,2019,45,796,11,114,15.7,1.38,14.32
+States,Maine,2019,45,72,0,1,1.39,0,1.39
+States,Maryland,2019,45,193,2,3,2.59,1.04,1.55
+States,Massachusetts,2019,45,570,1,1,0.35,0.18,0.18
+States,Michigan,2019,45,1430,10,3,0.91,0.7,0.21
+States,Minnesota,2019,45,342,1,0,0.29,0.29,0
+States,Mississippi,2019,45,110,0,1,0.91,0,0.91
+States,Missouri,2019,45,616,2,0,0.32,0.32,0
+States,Montana,2019,45,122,0,0,0,0,0
+States,Nebraska,2019,45,112,3,0,2.68,2.68,0
+States,Nevada,2019,45,64,0,23,35.94,0,35.94
+States,New Hampshire,2019,45,X,X,X,X,X,X
+States,New Jersey,2019,45,X,X,X,X,X,X
+States,New Mexico,2019,45,361,7,0,1.94,1.94,0
+States,New York,2019,45,1933,19,10,1.5,0.98,0.52
+States,North Carolina,2019,45,266,0,2,0.75,0,0.75
+States,North Dakota,2019,45,224,1,41,18.75,0.45,18.3
+States,Ohio,2019,45,2152,8,6,0.65,0.37,0.28
+States,Oklahoma,2019,45,264,1,1,0.76,0.38,0.38
+States,Oregon,2019,45,1132,8,34,3.71,0.71,3
+States,Pennsylvania,2019,45,351,1,2,0.85,0.28,0.57
+States,Rhode Island,2019,45,X,X,X,X,X,X
+States,South Carolina,2019,45,367,1,3,1.09,0.27,0.82
+States,South Dakota,2019,45,57,0,0,0,0,0
+States,Tennessee,2019,45,50,1,0,2,2,0
+States,Texas,2019,45,3435,70,505,16.74,2.04,14.7
+States,Utah,2019,45,532,9,5,2.63,1.69,0.94
+States,Vermont,2019,45,107,0,1,0.93,0,0.93
+States,Virginia,2019,45,364,2,2,1.1,0.55,0.55
+States,Washington,2019,45,961,4,14,1.87,0.42,1.46
+States,West Virginia,2019,45,559,0,0,0,0,0
+States,Wisconsin,2019,45,1145,6,2,0.7,0.52,0.17
+States,Wyoming,2019,45,X,X,X,X,X,X
+States,Puerto Rico,2019,45,0,0,0,0,0,0
+States,Virgin Islands,2019,45,X,X,X,X,X,X
+States,New York City,2019,45,X,X,X,X,X,X
+States,Alabama,2019,46,739,5,26,4.19,0.68,3.52
+States,Alaska,2019,46,X,X,X,X,X,X
+States,Arizona,2019,46,402,3,18,5.22,0.75,4.48
+States,Arkansas,2019,46,175,0,3,1.71,0,1.71
+States,California,2019,46,2887,126,247,12.92,4.36,8.56
+States,Colorado,2019,46,670,14,24,5.67,2.09,3.58
+States,Connecticut,2019,46,678,5,1,0.88,0.74,0.15
+States,Delaware,2019,46,280,5,10,5.36,1.79,3.57
+States,District of Columbia,2019,46,X,X,X,X,X,X
+States,Florida,2019,46,X,X,X,X,X,X
+States,Georgia,2019,46,1817,38,110,8.15,2.09,6.05
+States,Hawaii,2019,46,425,15,8,5.41,3.53,1.88
+States,Idaho,2019,46,71,1,5,8.45,1.41,7.04
+States,Illinois,2019,46,363,4,3,1.93,1.1,0.83
+States,Indiana,2019,46,230,6,1,3.04,2.61,0.43
+States,Iowa,2019,46,277,4,0,1.44,1.44,0
+States,Kansas,2019,46,62,0,0,0,0,0
+States,Kentucky,2019,46,620,26,1,4.35,4.19,0.16
+States,Louisiana,2019,46,942,7,180,19.85,0.74,19.11
+States,Maine,2019,46,73,0,1,1.37,0,1.37
+States,Maryland,2019,46,219,0,0,0,0,0
+States,Massachusetts,2019,46,694,1,3,0.58,0.14,0.43
+States,Michigan,2019,46,1467,12,17,1.98,0.82,1.16
+States,Minnesota,2019,46,361,4,1,1.39,1.11,0.28
+States,Mississippi,2019,46,93,0,3,3.23,0,3.23
+States,Missouri,2019,46,616,4,8,1.95,0.65,1.3
+States,Montana,2019,46,105,3,2,4.76,2.86,1.9
+States,Nebraska,2019,46,130,12,4,12.31,9.23,3.08
+States,Nevada,2019,46,72,21,1,30.56,29.17,1.39
+States,New Hampshire,2019,46,X,X,X,X,X,X
+States,New Jersey,2019,46,X,X,X,X,X,X
+States,New Mexico,2019,46,341,6,11,4.99,1.76,3.23
+States,New York,2019,46,1858,22,19,2.21,1.18,1.02
+States,North Carolina,2019,46,264,4,2,2.27,1.52,0.76
+States,North Dakota,2019,46,241,2,40,17.43,0.83,16.6
+States,Ohio,2019,46,2099,14,11,1.19,0.67,0.52
+States,Oklahoma,2019,46,278,2,2,1.44,0.72,0.72
+States,Oregon,2019,46,1221,14,81,7.78,1.15,6.63
+States,Pennsylvania,2019,46,427,2,2,0.94,0.47,0.47
+States,Rhode Island,2019,46,X,X,X,X,X,X
+States,South Carolina,2019,46,364,5,3,2.2,1.37,0.82
+States,South Dakota,2019,46,80,0,0,0,0,0
+States,Tennessee,2019,46,74,3,0,4.05,4.05,0
+States,Texas,2019,46,3956,99,579,17.14,2.5,14.64
+States,Utah,2019,46,535,3,12,2.8,0.56,2.24
+States,Vermont,2019,46,107,1,0,0.93,0.93,0
+States,Virginia,2019,46,406,0,1,0.25,0,0.25
+States,Washington,2019,46,1024,10,38,4.69,0.98,3.71
+States,West Virginia,2019,46,569,0,0,0,0,0
+States,Wisconsin,2019,46,1161,6,16,1.89,0.52,1.38
+States,Wyoming,2019,46,10,0,1,10,0,10
+States,Puerto Rico,2019,46,0,0,0,0,0,0
+States,Virgin Islands,2019,46,X,X,X,X,X,X
+States,New York City,2019,46,X,X,X,X,X,X
+States,Alabama,2019,47,868,15,70,9.79,1.73,8.06
+States,Alaska,2019,47,11,2,1,27.27,18.18,9.09
+States,Arizona,2019,47,395,4,29,8.35,1.01,7.34
+States,Arkansas,2019,47,224,1,9,4.46,0.45,4.02
+States,California,2019,47,3091,133,298,13.94,4.3,9.64
+States,Colorado,2019,47,706,9,46,7.79,1.27,6.52
+States,Connecticut,2019,47,699,6,1,1,0.86,0.14
+States,Delaware,2019,47,267,1,15,5.99,0.37,5.62
+States,District of Columbia,2019,47,X,X,X,X,X,X
+States,Florida,2019,47,X,X,X,X,X,X
+States,Georgia,2019,47,2082,76,247,15.51,3.65,11.86
+States,Hawaii,2019,47,382,6,7,3.4,1.57,1.83
+States,Idaho,2019,47,82,0,4,4.88,0,4.88
+States,Illinois,2019,47,378,12,6,4.76,3.17,1.59
+States,Indiana,2019,47,285,3,3,2.11,1.05,1.05
+States,Iowa,2019,47,291,3,1,1.37,1.03,0.34
+States,Kansas,2019,47,113,0,1,0.88,0,0.88
+States,Kentucky,2019,47,780,32,3,4.49,4.1,0.38
+States,Louisiana,2019,47,1132,15,283,26.33,1.33,25
+States,Maine,2019,47,75,0,0,0,0,0
+States,Maryland,2019,47,224,6,0,2.68,2.68,0
+States,Massachusetts,2019,47,751,11,5,2.13,1.46,0.67
+States,Michigan,2019,47,1552,25,29,3.48,1.61,1.87
+States,Minnesota,2019,47,365,3,4,1.92,0.82,1.1
+States,Mississippi,2019,47,103,2,3,4.85,1.94,2.91
+States,Missouri,2019,47,1503,16,20,2.4,1.06,1.33
+States,Montana,2019,47,132,0,1,0.76,0,0.76
+States,Nebraska,2019,47,165,43,0,26.06,26.06,0
+States,Nevada,2019,47,98,33,6,39.8,33.67,6.12
+States,New Hampshire,2019,47,X,X,X,X,X,X
+States,New Jersey,2019,47,X,X,X,X,X,X
+States,New Mexico,2019,47,423,14,13,6.38,3.31,3.07
+States,New York,2019,47,2018,37,29,3.27,1.83,1.44
+States,North Carolina,2019,47,312,9,5,4.49,2.88,1.6
+States,North Dakota,2019,47,307,3,54,18.57,0.98,17.59
+States,Ohio,2019,47,2482,31,30,2.46,1.25,1.21
+States,Oklahoma,2019,47,310,0,7,2.26,0,2.26
+States,Oregon,2019,47,1335,20,114,10.04,1.5,8.54
+States,Pennsylvania,2019,47,427,1,2,0.7,0.23,0.47
+States,Rhode Island,2019,47,X,X,X,X,X,X
+States,South Carolina,2019,47,414,7,4,2.66,1.69,0.97
+States,South Dakota,2019,47,85,0,0,0,0,0
+States,Tennessee,2019,47,80,5,4,11.25,6.25,5
+States,Texas,2019,47,5252,186,999,22.56,3.54,19.02
+States,Utah,2019,47,642,16,17,5.14,2.49,2.65
+States,Vermont,2019,47,124,1,1,1.61,0.81,0.81
+States,Virginia,2019,47,412,2,1,0.73,0.49,0.24
+States,Washington,2019,47,1088,9,52,5.61,0.83,4.78
+States,West Virginia,2019,47,554,0,1,0.18,0,0.18
+States,Wisconsin,2019,47,1355,20,44,4.72,1.48,3.25
+States,Wyoming,2019,47,X,X,X,X,X,X
+States,Puerto Rico,2019,47,0,0,0,0,0,0
+States,Virgin Islands,2019,47,X,X,X,X,X,X
+States,New York City,2019,47,X,X,X,X,X,X
+States,Alabama,2019,48,849,28,74,12.01,3.3,8.72
+States,Alaska,2019,48,16,0,1,6.25,0,6.25
+States,Arizona,2019,48,385,1,52,13.77,0.26,13.51
+States,Arkansas,2019,48,230,4,8,5.22,1.74,3.48
+States,California,2019,48,2819,150,317,16.57,5.32,11.25
+States,Colorado,2019,48,737,13,88,13.7,1.76,11.94
+States,Connecticut,2019,48,709,14,7,2.96,1.97,0.99
+States,Delaware,2019,48,379,6,7,3.43,1.58,1.85
+States,District of Columbia,2019,48,X,X,X,X,X,X
+States,Florida,2019,48,X,X,X,X,X,X
+States,Georgia,2019,48,2004,101,265,18.26,5.04,13.22
+States,Hawaii,2019,48,404,19,3,5.45,4.7,0.74
+States,Idaho,2019,48,90,1,11,13.33,1.11,12.22
+States,Illinois,2019,48,415,9,8,4.1,2.17,1.93
+States,Indiana,2019,48,223,4,9,5.83,1.79,4.04
+States,Iowa,2019,48,215,1,0,0.47,0.47,0
+States,Kansas,2019,48,87,0,2,2.3,0,2.3
+States,Kentucky,2019,48,635,31,7,5.98,4.88,1.1
+States,Louisiana,2019,48,878,11,195,23.46,1.25,22.21
+States,Maine,2019,48,62,0,0,0,0,0
+States,Maryland,2019,48,204,6,7,6.37,2.94,3.43
+States,Massachusetts,2019,48,724,27,12,5.39,3.73,1.66
+States,Michigan,2019,48,1636,43,69,6.85,2.63,4.22
+States,Minnesota,2019,48,339,12,6,5.31,3.54,1.77
+States,Mississippi,2019,48,106,0,11,10.38,0,10.38
+States,Missouri,2019,48,1542,11,50,3.96,0.71,3.24
+States,Montana,2019,48,123,0,8,6.5,0,6.5
+States,Nebraska,2019,48,228,47,0,20.61,20.61,0
+States,Nevada,2019,48,X,X,X,X,X,X
+States,New Hampshire,2019,48,X,X,X,X,X,X
+States,New Jersey,2019,48,X,X,X,X,X,X
+States,New Mexico,2019,48,331,20,12,9.67,6.04,3.63
+States,New York,2019,48,2021,58,54,5.54,2.87,2.67
+States,North Carolina,2019,48,392,12,15,6.89,3.06,3.83
+States,North Dakota,2019,48,249,2,52,21.69,0.8,20.88
+States,Ohio,2019,48,2579,34,60,3.64,1.32,2.33
+States,Oklahoma,2019,48,313,2,10,3.83,0.64,3.19
+States,Oregon,2019,48,1492,20,216,15.82,1.34,14.48
+States,Pennsylvania,2019,48,433,5,4,2.08,1.15,0.92
+States,Rhode Island,2019,48,X,X,X,X,X,X
+States,South Carolina,2019,48,378,12,5,4.5,3.17,1.32
+States,South Dakota,2019,48,60,1,0,1.67,1.67,0
+States,Tennessee,2019,48,109,10,5,13.76,9.17,4.59
+States,Texas,2019,48,4329,193,762,22.06,4.46,17.6
+States,Utah,2019,48,729,21,40,8.37,2.88,5.49
+States,Vermont,2019,48,129,4,0,3.1,3.1,0
+States,Virginia,2019,48,448,6,20,5.8,1.34,4.46
+States,Washington,2019,48,1263,15,95,8.71,1.19,7.52
+States,West Virginia,2019,48,512,0,4,0.78,0,0.78
+States,Wisconsin,2019,48,1388,9,67,5.48,0.65,4.83
+States,Wyoming,2019,48,X,X,X,X,X,X
+States,Puerto Rico,2019,48,0,0,0,0,0,0
+States,Virgin Islands,2019,48,X,X,X,X,X,X
+States,New York City,2019,48,X,X,X,X,X,X
+States,Alabama,2019,49,979,23,81,10.62,2.35,8.27
+States,Alaska,2019,49,19,0,1,5.26,0,5.26
+States,Arizona,2019,49,526,3,63,12.55,0.57,11.98
+States,Arkansas,2019,49,194,7,10,8.76,3.61,5.15
+States,California,2019,49,3460,198,424,17.98,5.72,12.25
+States,Colorado,2019,49,880,29,97,14.32,3.3,11.02
+States,Connecticut,2019,49,857,19,12,3.62,2.22,1.4
+States,Delaware,2019,49,362,12,32,12.15,3.31,8.84
+States,District of Columbia,2019,49,X,X,X,X,X,X
+States,Florida,2019,49,X,X,X,X,X,X
+States,Georgia,2019,49,1855,100,169,14.5,5.39,9.11
+States,Hawaii,2019,49,468,35,8,9.19,7.48,1.71
+States,Idaho,2019,49,128,3,17,15.63,2.34,13.28
+States,Illinois,2019,49,437,13,10,5.26,2.97,2.29
+States,Indiana,2019,49,290,5,5,3.45,1.72,1.72
+States,Iowa,2019,49,300,9,3,4,3,1
+States,Kansas,2019,49,103,2,2,3.88,1.94,1.94
+States,Kentucky,2019,49,884,53,11,7.24,6,1.24
+States,Louisiana,2019,49,810,15,122,16.91,1.85,15.06
+States,Maine,2019,49,68,0,1,1.47,0,1.47
+States,Maryland,2019,49,320,11,22,10.31,3.44,6.88
+States,Massachusetts,2019,49,941,30,31,6.48,3.19,3.29
+States,Michigan,2019,49,2190,67,138,9.36,3.06,6.3
+States,Minnesota,2019,49,409,15,8,5.62,3.67,1.96
+States,Mississippi,2019,49,141,0,11,7.8,0,7.8
+States,Missouri,2019,49,1730,29,80,6.3,1.68,4.62
+States,Montana,2019,49,146,1,8,6.16,0.68,5.48
+States,Nebraska,2019,49,193,27,6,17.1,13.99,3.11
+States,Nevada,2019,49,X,X,X,X,X,X
+States,New Hampshire,2019,49,X,X,X,X,X,X
+States,New Jersey,2019,49,X,X,X,X,X,X
+States,New Mexico,2019,49,496,28,34,12.5,5.65,6.85
+States,New York,2019,49,2335,89,79,7.19,3.81,3.38
+States,North Carolina,2019,49,454,29,20,10.79,6.39,4.41
+States,North Dakota,2019,49,304,4,70,24.34,1.32,23.03
+States,Ohio,2019,49,3097,59,142,6.49,1.91,4.59
+States,Oklahoma,2019,49,388,3,19,5.67,0.77,4.9
+States,Oregon,2019,49,2042,38,371,20.03,1.86,18.17
+States,Pennsylvania,2019,49,497,3,21,4.83,0.6,4.23
+States,Rhode Island,2019,49,X,X,X,X,X,X
+States,South Carolina,2019,49,506,11,18,5.73,2.17,3.56
+States,South Dakota,2019,49,74,0,0,0,0,0
+States,Tennessee,2019,49,92,1,5,6.52,1.09,5.43
+States,Texas,2019,49,5098,244,805,20.58,4.79,15.79
+States,Utah,2019,49,856,43,54,11.33,5.02,6.31
+States,Vermont,2019,49,143,6,3,6.29,4.2,2.1
+States,Virginia,2019,49,521,6,26,6.14,1.15,4.99
+States,Washington,2019,49,1644,26,182,12.65,1.58,11.07
+States,West Virginia,2019,49,524,2,2,0.76,0.38,0.38
+States,Wisconsin,2019,49,1790,22,106,7.15,1.23,5.92
+States,Wyoming,2019,49,X,X,X,X,X,X
+States,Puerto Rico,2019,49,0,0,0,0,0,0
+States,Virgin Islands,2019,49,X,X,X,X,X,X
+States,New York City,2019,49,X,X,X,X,X,X
+States,Alabama,2019,50,985,48,74,12.39,4.87,7.51
+States,Alaska,2019,50,11,1,2,27.27,9.09,18.18
+States,Arizona,2019,50,558,5,50,9.86,0.9,8.96
+States,Arkansas,2019,50,239,10,18,11.72,4.18,7.53
+States,California,2019,50,3739,245,520,20.46,6.55,13.91
+States,Colorado,2019,50,925,33,145,19.24,3.57,15.68
+States,Connecticut,2019,50,950,36,15,5.37,3.79,1.58
+States,Delaware,2019,50,425,7,29,8.47,1.65,6.82
+States,District of Columbia,2019,50,X,X,X,X,X,X
+States,Florida,2019,50,X,X,X,X,X,X
+States,Georgia,2019,50,2594,294,347,24.71,11.33,13.38
+States,Hawaii,2019,50,423,26,6,7.57,6.15,1.42
+States,Idaho,2019,50,96,0,21,21.88,0,21.88
+States,Illinois,2019,50,488,20,24,9.02,4.1,4.92
+States,Indiana,2019,50,266,11,5,6.02,4.14,1.88
+States,Iowa,2019,50,270,10,3,4.81,3.7,1.11
+States,Kansas,2019,50,114,0,2,1.75,0,1.75
+States,Kentucky,2019,50,951,81,34,12.09,8.52,3.58
+States,Louisiana,2019,50,664,19,100,17.92,2.86,15.06
+States,Maine,2019,50,64,4,3,10.94,6.25,4.69
+States,Maryland,2019,50,327,22,31,16.21,6.73,9.48
+States,Massachusetts,2019,50,965,35,50,8.81,3.63,5.18
+States,Michigan,2019,50,2415,97,247,14.24,4.02,10.23
+States,Minnesota,2019,50,460,20,17,8.04,4.35,3.7
+States,Mississippi,2019,50,133,0,24,18.05,0,18.05
+States,Missouri,2019,50,2276,62,265,14.37,2.72,11.64
+States,Montana,2019,50,220,2,23,11.36,0.91,10.45
+States,Nebraska,2019,50,222,58,18,34.23,26.13,8.11
+States,Nevada,2019,50,43,3,6,20.93,6.98,13.95
+States,New Hampshire,2019,50,X,X,X,X,X,X
+States,New Jersey,2019,50,X,X,X,X,X,X
+States,New Mexico,2019,50,X,X,X,X,X,X
+States,New York,2019,50,2533,148,171,12.59,5.84,6.75
+States,North Carolina,2019,50,402,43,29,17.91,10.7,7.21
+States,North Dakota,2019,50,344,3,81,24.42,0.87,23.55
+States,Ohio,2019,50,3317,80,281,10.88,2.41,8.47
+States,Oklahoma,2019,50,446,7,55,13.9,1.57,12.33
+States,Oregon,2019,50,2804,54,711,27.28,1.93,25.36
+States,Pennsylvania,2019,50,595,18,29,7.9,3.03,4.87
+States,Rhode Island,2019,50,X,X,X,X,X,X
+States,South Carolina,2019,50,591,38,21,9.98,6.43,3.55
+States,South Dakota,2019,50,73,0,1,1.37,0,1.37
+States,Tennessee,2019,50,120,7,8,12.5,5.83,6.67
+States,Texas,2019,50,4347,293,802,25.19,6.74,18.45
+States,Utah,2019,50,968,35,79,11.78,3.62,8.16
+States,Vermont,2019,50,106,8,0,7.55,7.55,0
+States,Virginia,2019,50,528,4,34,7.2,0.76,6.44
+States,Washington,2019,50,1887,53,328,20.19,2.81,17.38
+States,West Virginia,2019,50,539,5,2,1.3,0.93,0.37
+States,Wisconsin,2019,50,2056,51,222,13.28,2.48,10.8
+States,Wyoming,2019,50,17,2,2,23.53,11.76,11.76
+States,Puerto Rico,2019,50,0,0,0,0,0,0
+States,Virgin Islands,2019,50,X,X,X,X,X,X
+States,New York City,2019,50,X,X,X,X,X,X
+States,Alabama,2019,51,1083,96,94,17.54,8.86,8.68
+States,Alaska,2019,51,14,0,2,14.29,0,14.29
+States,Arizona,2019,51,366,1,42,11.75,0.27,11.48
+States,Arkansas,2019,51,X,X,X,X,X,X
+States,California,2019,51,3885,418,771,30.6,10.76,19.85
+States,Colorado,2019,51,1206,65,253,26.37,5.39,20.98
+States,Connecticut,2019,51,1049,57,42,9.44,5.43,4
+States,Delaware,2019,51,485,32,54,17.73,6.6,11.13
+States,District of Columbia,2019,51,X,X,X,X,X,X
+States,Florida,2019,51,X,X,X,X,X,X
+States,Georgia,2019,51,3115,486,415,28.92,15.6,13.32
+States,Hawaii,2019,51,476,45,3,10.08,9.45,0.63
+States,Idaho,2019,51,127,1,24,19.69,0.79,18.9
+States,Illinois,2019,51,572,40,56,16.78,6.99,9.79
+States,Indiana,2019,51,457,58,11,15.1,12.69,2.41
+States,Iowa,2019,51,314,17,18,11.15,5.41,5.73
+States,Kansas,2019,51,114,4,6,8.77,3.51,5.26
+States,Kentucky,2019,51,1065,152,65,20.38,14.27,6.1
+States,Louisiana,2019,51,673,28,80,16.05,4.16,11.89
+States,Maine,2019,51,78,6,2,10.26,7.69,2.56
+States,Maryland,2019,51,321,29,45,23.05,9.03,14.02
+States,Massachusetts,2019,51,1041,68,109,17,6.53,10.47
+States,Michigan,2019,51,3061,192,513,23.03,6.27,16.76
+States,Minnesota,2019,51,613,21,62,13.54,3.43,10.11
+States,Mississippi,2019,51,176,0,44,25,0,25
+States,Missouri,2019,51,2717,122,516,23.48,4.49,18.99
+States,Montana,2019,51,247,7,32,15.79,2.83,12.96
+States,Nebraska,2019,51,229,49,21,30.57,21.4,9.17
+States,Nevada,2019,51,36,4,7,30.56,11.11,19.44
+States,New Hampshire,2019,51,X,X,X,X,X,X
+States,New Jersey,2019,51,X,X,X,X,X,X
+States,New Mexico,2019,51,688,69,144,30.96,10.03,20.93
+States,New York,2019,51,2947,208,217,14.42,7.06,7.36
+States,North Carolina,2019,51,443,62,50,25.28,14,11.29
+States,North Dakota,2019,51,492,10,130,28.46,2.03,26.42
+States,Ohio,2019,51,4188,133,665,19.05,3.18,15.88
+States,Oklahoma,2019,51,456,7,87,20.61,1.54,19.08
+States,Oregon,2019,51,3722,101,1031,30.41,2.71,27.7
+States,Pennsylvania,2019,51,821,32,71,12.55,3.9,8.65
+States,Rhode Island,2019,51,X,X,X,X,X,X
+States,South Carolina,2019,51,644,57,49,16.46,8.85,7.61
+States,South Dakota,2019,51,83,1,0,1.2,1.2,0
+States,Tennessee,2019,51,141,7,19,18.44,4.96,13.48
+States,Texas,2019,51,6092,522,1521,33.54,8.57,24.97
+States,Utah,2019,51,1193,88,134,18.61,7.38,11.23
+States,Vermont,2019,51,123,4,2,4.88,3.25,1.63
+States,Virginia,2019,51,587,19,79,16.7,3.24,13.46
+States,Washington,2019,51,2384,66,479,22.86,2.77,20.09
+States,West Virginia,2019,51,681,12,26,5.58,1.76,3.82
+States,Wisconsin,2019,51,2548,113,380,19.35,4.43,14.91
+States,Wyoming,2019,51,20,5,1,30,25,5
+States,Puerto Rico,2019,51,0,0,0,0,0,0
+States,Virgin Islands,2019,51,X,X,X,X,X,X
+States,New York City,2019,51,X,X,X,X,X,X
+States,Alabama,2019,52,1137,105,119,19.7,9.23,10.47
+States,Alaska,2019,52,14,0,4,28.57,0,28.57
+States,Arizona,2019,52,450,17,51,15.11,3.78,11.33
+States,Arkansas,2019,52,367,43,64,29.16,11.72,17.44
+States,California,2019,52,4042,427,600,25.41,10.56,14.84
+States,Colorado,2019,52,1065,74,217,27.32,6.95,20.38
+States,Connecticut,2019,52,1421,156,98,17.87,10.98,6.9
+States,Delaware,2019,52,627,64,59,19.62,10.21,9.41
+States,District of Columbia,2019,52,X,X,X,X,X,X
+States,Florida,2019,52,X,X,X,X,X,X
+States,Georgia,2019,52,3820,864,474,35.03,22.62,12.41
+States,Hawaii,2019,52,537,46,14,11.17,8.57,2.61
+States,Idaho,2019,52,144,4,29,22.92,2.78,20.14
+States,Illinois,2019,52,731,68,106,23.8,9.3,14.5
+States,Indiana,2019,52,515,82,53,26.21,15.92,10.29
+States,Iowa,2019,52,365,23,49,19.73,6.3,13.42
+States,Kansas,2019,52,129,5,5,7.75,3.88,3.88
+States,Kentucky,2019,52,1494,259,140,26.71,17.34,9.37
+States,Louisiana,2019,52,743,50,106,21,6.73,14.27
+States,Maine,2019,52,122,17,2,15.57,13.93,1.64
+States,Maryland,2019,52,500,35,92,25.4,7,18.4
+States,Massachusetts,2019,52,1225,101,166,21.8,8.24,13.55
+States,Michigan,2019,52,4052,309,875,29.22,7.63,21.59
+States,Minnesota,2019,52,707,45,91,19.24,6.36,12.87
+States,Mississippi,2019,52,203,6,45,25.12,2.96,22.17
+States,Missouri,2019,52,3271,225,698,28.22,6.88,21.34
+States,Montana,2019,52,311,16,67,26.69,5.14,21.54
+States,Nebraska,2019,52,273,68,57,45.79,24.91,20.88
+States,Nevada,2019,52,28,6,2,28.57,21.43,7.14
+States,New Hampshire,2019,52,X,X,X,X,X,X
+States,New Jersey,2019,52,X,X,X,X,X,X
+States,New Mexico,2019,52,575,56,118,30.26,9.74,20.52
+States,New York,2019,52,3022,327,389,23.69,10.82,12.87
+States,North Carolina,2019,52,572,74,65,24.3,12.94,11.36
+States,North Dakota,2019,52,480,39,126,34.38,8.13,26.25
+States,Ohio,2019,52,5218,342,1209,29.72,6.55,23.17
+States,Oklahoma,2019,52,625,18,163,28.96,2.88,26.08
+States,Oregon,2019,52,4024,134,1129,31.39,3.33,28.06
+States,Pennsylvania,2019,52,1209,68,260,27.13,5.62,21.51
+States,Rhode Island,2019,52,X,X,X,X,X,X
+States,South Carolina,2019,52,890,90,94,20.67,10.11,10.56
+States,South Dakota,2019,52,66,2,2,6.06,3.03,3.03
+States,Tennessee,2019,52,253,25,45,27.67,9.88,17.79
+States,Texas,2019,52,6321,834,1667,39.57,13.19,26.37
+States,Utah,2019,52,1690,165,270,25.74,9.76,15.98
+States,Vermont,2019,52,190,8,10,9.47,4.21,5.26
+States,Virginia,2019,52,581,31,66,16.7,5.34,11.36
+States,Washington,2019,52,2539,75,467,21.35,2.95,18.39
+States,West Virginia,2019,52,812,17,79,11.82,2.09,9.73
+States,Wisconsin,2019,52,3152,182,500,21.64,5.77,15.86
+States,Wyoming,2019,52,14,2,3,35.71,14.29,21.43
+States,Puerto Rico,2019,52,0,0,0,0,0,0
+States,Virgin Islands,2019,52,X,X,X,X,X,X
+States,New York City,2019,52,X,X,X,X,X,X
+States,Alabama,2020,1,1049,102,79,17.25,9.72,7.53
+States,Alaska,2020,1,12,1,3,33.33,8.33,25
+States,Arizona,2020,1,470,23,51,15.74,4.89,10.85
+States,Arkansas,2020,1,366,31,42,19.95,8.47,11.48
+States,California,2020,1,4396,580,606,26.98,13.19,13.79
+States,Colorado,2020,1,1367,108,255,26.55,7.9,18.65
+States,Connecticut,2020,1,1502,140,162,20.11,9.32,10.79
+States,Delaware,2020,1,525,53,50,19.62,10.1,9.52
+States,District of Columbia,2020,1,X,X,X,X,X,X
+States,Florida,2020,1,X,X,X,X,X,X
+States,Georgia,2020,1,2884,477,247,25.1,16.54,8.56
+States,Hawaii,2020,1,557,58,14,12.93,10.41,2.51
+States,Idaho,2020,1,133,4,19,17.29,3.01,14.29
+States,Illinois,2020,1,806,69,108,21.96,8.56,13.4
+States,Indiana,2020,1,369,35,29,17.34,9.49,7.86
+States,Iowa,2020,1,379,24,62,22.69,6.33,16.36
+States,Kansas,2020,1,169,11,10,12.43,6.51,5.92
+States,Kentucky,2020,1,1437,172,99,18.86,11.97,6.89
+States,Louisiana,2020,1,635,44,77,19.06,6.93,12.13
+States,Maine,2020,1,112,12,5,15.18,10.71,4.46
+States,Maryland,2020,1,635,70,96,26.14,11.02,15.12
+States,Massachusetts,2020,1,1568,150,248,25.38,9.57,15.82
+States,Michigan,2020,1,4441,265,838,24.84,5.97,18.87
+States,Minnesota,2020,1,764,49,92,18.46,6.41,12.04
+States,Mississippi,2020,1,194,6,28,17.53,3.09,14.43
+States,Missouri,2020,1,3107,229,476,22.69,7.37,15.32
+States,Montana,2020,1,304,29,62,29.93,9.54,20.39
+States,Nebraska,2020,1,279,30,71,36.2,10.75,25.45
+States,Nevada,2020,1,X,X,X,X,X,X
+States,New Hampshire,2020,1,X,X,X,X,X,X
+States,New Jersey,2020,1,X,X,X,X,X,X
+States,New Mexico,2020,1,846,103,177,33.1,12.17,20.92
+States,New York,2020,1,3795,378,477,22.53,9.96,12.57
+States,North Carolina,2020,1,393,38,41,20.1,9.67,10.43
+States,North Dakota,2020,1,453,42,80,26.93,9.27,17.66
+States,Ohio,2020,1,5449,394,1035,26.22,7.23,18.99
+States,Oklahoma,2020,1,579,17,122,24.01,2.94,21.07
+States,Oregon,2020,1,4204,194,941,27,4.61,22.38
+States,Pennsylvania,2020,1,1347,88,250,25.09,6.53,18.56
+States,Rhode Island,2020,1,X,X,X,X,X,X
+States,South Carolina,2020,1,868,72,77,17.17,8.29,8.87
+States,South Dakota,2020,1,65,1,4,7.69,1.54,6.15
+States,Tennessee,2020,1,203,16,25,20.2,7.88,12.32
+States,Texas,2020,1,5499,599,1125,31.35,10.89,20.46
+States,Utah,2020,1,1779,173,322,27.82,9.72,18.1
+States,Vermont,2020,1,240,24,22,19.17,10,9.17
+States,Virginia,2020,1,557,41,57,17.59,7.36,10.23
+States,Washington,2020,1,2564,110,337,17.43,4.29,13.14
+States,West Virginia,2020,1,938,23,79,10.87,2.45,8.42
+States,Wisconsin,2020,1,3132,166,368,17.05,5.3,11.75
+States,Wyoming,2020,1,18,2,1,16.67,11.11,5.56
+States,Puerto Rico,2020,1,0,0,0,0,0,0
+States,Virgin Islands,2020,1,X,X,X,X,X,X
+States,New York City,2020,1,X,X,X,X,X,X
+States,Alabama,2020,2,887,71,44,12.97,8,4.96
+States,Alaska,2020,2,15,1,3,26.67,6.67,20
+States,Arizona,2020,2,383,35,33,17.75,9.14,8.62
+States,Arkansas,2020,2,357,43,56,27.73,12.04,15.69
+States,California,2020,2,4833,736,602,27.68,15.23,12.46
+States,Colorado,2020,2,1200,125,184,25.75,10.42,15.33
+States,Connecticut,2020,2,1677,181,234,24.75,10.79,13.95
+States,Delaware,2020,2,541,73,49,22.55,13.49,9.06
+States,District of Columbia,2020,2,X,X,X,X,X,X
+States,Florida,2020,2,X,X,X,X,X,X
+States,Georgia,2020,2,2200,369,157,23.91,16.77,7.14
+States,Hawaii,2020,2,607,60,17,12.69,9.88,2.8
+States,Idaho,2020,2,117,5,14,16.24,4.27,11.97
+States,Illinois,2020,2,784,66,101,21.3,8.42,12.88
+States,Indiana,2020,2,360,25,28,14.72,6.94,7.78
+States,Iowa,2020,2,351,16,55,20.23,4.56,15.67
+States,Kansas,2020,2,168,16,5,12.5,9.52,2.98
+States,Kentucky,2020,2,1102,102,74,15.97,9.26,6.72
+States,Louisiana,2020,2,579,59,23,14.16,10.19,3.97
+States,Maine,2020,2,109,8,4,11.01,7.34,3.67
+States,Maryland,2020,2,576,63,102,28.65,10.94,17.71
+States,Massachusetts,2020,2,1805,200,332,29.47,11.08,18.39
+States,Michigan,2020,2,3795,264,611,23.06,6.96,16.1
+States,Minnesota,2020,2,750,35,60,12.67,4.67,8
+States,Mississippi,2020,2,161,11,20,19.25,6.83,12.42
+States,Missouri,2020,2,2758,221,394,22.3,8.01,14.29
+States,Montana,2020,2,344,30,40,20.35,8.72,11.63
+States,Nebraska,2020,2,212,10,48,27.36,4.72,22.64
+States,Nevada,2020,2,57,17,6,40.35,29.82,10.53
+States,New Hampshire,2020,2,X,X,X,X,X,X
+States,New Jersey,2020,2,X,X,X,X,X,X
+States,New Mexico,2020,2,488,119,153,55.74,24.39,31.35
+States,New York,2020,2,3828,424,417,21.97,11.08,10.89
+States,North Carolina,2020,2,371,55,40,25.61,14.82,10.78
+States,North Dakota,2020,2,481,43,91,27.86,8.94,18.92
+States,Ohio,2020,2,4920,434,852,26.14,8.82,17.32
+States,Oklahoma,2020,2,519,24,94,22.74,4.62,18.11
+States,Oregon,2020,2,3396,179,624,23.65,5.27,18.37
+States,Pennsylvania,2020,2,1203,103,200,25.19,8.56,16.63
+States,Rhode Island,2020,2,X,X,X,X,X,X
+States,South Carolina,2020,2,722,59,48,14.82,8.17,6.65
+States,South Dakota,2020,2,85,2,2,4.71,2.35,2.35
+States,Tennessee,2020,2,165,19,8,16.36,11.52,4.85
+States,Texas,2020,2,5077,728,834,30.77,14.34,16.43
+States,Utah,2020,2,1728,197,254,26.1,11.4,14.7
+States,Vermont,2020,2,227,11,19,13.22,4.85,8.37
+States,Virginia,2020,2,593,39,56,16.02,6.58,9.44
+States,Washington,2020,2,2433,151,273,17.43,6.21,11.22
+States,West Virginia,2020,2,828,25,57,9.9,3.02,6.88
+States,Wisconsin,2020,2,3450,247,403,18.84,7.16,11.68
+States,Wyoming,2020,2,30,3,6,30,10,20
+States,Puerto Rico,2020,2,0,0,0,0,0,0
+States,Virgin Islands,2020,2,X,X,X,X,X,X
+States,New York City,2020,2,X,X,X,X,X,X
+States,Alabama,2020,3,834,86,36,14.63,10.31,4.32
+States,Alaska,2020,3,22,1,2,13.64,4.55,9.09
+States,Arizona,2020,3,503,50,45,18.89,9.94,8.95
+States,Arkansas,2020,3,443,75,87,36.57,16.93,19.64
+States,California,2020,3,5378,1043,666,31.78,19.39,12.38
+States,Colorado,2020,3,1359,189,197,28.4,13.91,14.5
+States,Connecticut,2020,3,1767,201,336,30.39,11.38,19.02
+States,Delaware,2020,3,546,83,39,22.34,15.2,7.14
+States,District of Columbia,2020,3,X,X,X,X,X,X
+States,Florida,2020,3,X,X,X,X,X,X
+States,Georgia,2020,3,2134,390,101,23.01,18.28,4.73
+States,Hawaii,2020,3,546,56,20,13.92,10.26,3.66
+States,Idaho,2020,3,99,2,7,9.09,2.02,7.07
+States,Illinois,2020,3,774,84,121,26.49,10.85,15.63
+States,Indiana,2020,3,359,28,26,15.04,7.8,7.24
+States,Iowa,2020,3,323,27,47,22.91,8.36,14.55
+States,Kansas,2020,3,149,12,12,16.11,8.05,8.05
+States,Kentucky,2020,3,888,80,58,15.54,9.01,6.53
+States,Louisiana,2020,3,585,79,26,17.95,13.5,4.44
+States,Maine,2020,3,124,12,15,21.77,9.68,12.1
+States,Maryland,2020,3,592,77,86,27.53,13.01,14.53
+States,Massachusetts,2020,3,1965,249,418,33.94,12.67,21.27
+States,Michigan,2020,3,3417,387,553,27.51,11.33,16.18
+States,Minnesota,2020,3,612,46,64,17.97,7.52,10.46
+States,Mississippi,2020,3,157,8,18,16.56,5.1,11.46
+States,Missouri,2020,3,2807,228,493,25.69,8.12,17.56
+States,Montana,2020,3,324,30,30,18.52,9.26,9.26
+States,Nebraska,2020,3,184,10,47,30.98,5.43,25.54
+States,Nevada,2020,3,X,X,X,X,X,X
+States,New Hampshire,2020,3,X,X,X,X,X,X
+States,New Jersey,2020,3,X,X,X,X,X,X
+States,New Mexico,2020,3,864,117,151,31.02,13.54,17.48
+States,New York,2020,3,3805,501,406,23.84,13.17,10.67
+States,North Carolina,2020,3,359,45,30,20.89,12.53,8.36
+States,North Dakota,2020,3,510,64,105,33.14,12.55,20.59
+States,Ohio,2020,3,4891,594,894,30.42,12.14,18.28
+States,Oklahoma,2020,3,456,33,79,24.56,7.24,17.32
+States,Oregon,2020,3,3016,226,402,20.82,7.49,13.33
+States,Pennsylvania,2020,3,1088,130,204,30.7,11.95,18.75
+States,Rhode Island,2020,3,X,X,X,X,X,X
+States,South Carolina,2020,3,622,64,61,20.1,10.29,9.81
+States,South Dakota,2020,3,79,2,2,5.06,2.53,2.53
+States,Tennessee,2020,3,107,9,2,10.28,8.41,1.87
+States,Texas,2020,3,5291,1072,728,34.02,20.26,13.76
+States,Utah,2020,3,1780,273,312,32.87,15.34,17.53
+States,Vermont,2020,3,167,29,28,34.13,17.37,16.77
+States,Virginia,2020,3,564,52,48,17.73,9.22,8.51
+States,Washington,2020,3,2141,169,186,16.58,7.89,8.69
+States,West Virginia,2020,3,923,50,94,15.6,5.42,10.18
+States,Wisconsin,2020,3,3450,338,497,24.2,9.8,14.41
+States,Wyoming,2020,3,71,21,11,45.07,29.58,15.49
+States,Puerto Rico,2020,3,0,0,0,0,0,0
+States,Virgin Islands,2020,3,X,X,X,X,X,X
+States,New York City,2020,3,X,X,X,X,X,X
+States,Alabama,2020,4,891,105,40,16.27,11.78,4.49
+States,Alaska,2020,4,10,1,2,30,10,20
+States,Arizona,2020,4,464,57,41,21.12,12.28,8.84
+States,Arkansas,2020,4,429,57,83,32.63,13.29,19.35
+States,California,2020,4,5835,1254,640,32.46,21.49,10.97
+States,Colorado,2020,4,1435,244,202,31.08,17,14.08
+States,Connecticut,2020,4,2026,221,483,34.75,10.91,23.84
+States,Delaware,2020,4,616,114,43,25.49,18.51,6.98
+States,District of Columbia,2020,4,X,X,X,X,X,X
+States,Florida,2020,4,X,X,X,X,X,X
+States,Georgia,2020,4,2093,375,121,23.7,17.92,5.78
+States,Hawaii,2020,4,609,77,29,17.41,12.64,4.76
+States,Idaho,2020,4,115,7,6,11.3,6.09,5.22
+States,Illinois,2020,4,931,113,170,30.4,12.14,18.26
+States,Indiana,2020,4,349,21,39,17.19,6.02,11.17
+States,Iowa,2020,4,366,31,74,28.69,8.47,20.22
+States,Kansas,2020,4,149,9,12,14.09,6.04,8.05
+States,Kentucky,2020,4,981,70,87,16,7.14,8.87
+States,Louisiana,2020,4,629,129,20,23.69,20.51,3.18
+States,Maine,2020,4,173,21,22,24.86,12.14,12.72
+States,Maryland,2020,4,569,78,106,32.34,13.71,18.63
+States,Massachusetts,2020,4,2114,274,549,38.93,12.96,25.97
+States,Michigan,2020,4,3573,497,623,31.35,13.91,17.44
+States,Minnesota,2020,4,689,54,81,19.59,7.84,11.76
+States,Mississippi,2020,4,151,17,10,17.88,11.26,6.62
+States,Missouri,2020,4,2930,416,527,32.18,14.2,17.99
+States,Montana,2020,4,394,56,55,28.17,14.21,13.96
+States,Nebraska,2020,4,140,4,41,32.14,2.86,29.29
+States,Nevada,2020,4,65,34,7,63.08,52.31,10.77
+States,New Hampshire,2020,4,X,X,X,X,X,X
+States,New Jersey,2020,4,X,X,X,X,X,X
+States,New Mexico,2020,4,872,121,99,25.23,13.88,11.35
+States,New York,2020,4,3789,543,444,26.05,14.33,11.72
+States,North Carolina,2020,4,342,43,31,21.64,12.57,9.06
+States,North Dakota,2020,4,584,87,98,31.68,14.9,16.78
+States,Ohio,2020,4,4437,646,748,31.42,14.56,16.86
+States,Oklahoma,2020,4,443,32,54,19.41,7.22,12.19
+States,Oregon,2020,4,2991,318,384,23.47,10.63,12.84
+States,Pennsylvania,2020,4,1216,141,222,29.85,11.6,18.26
+States,Rhode Island,2020,4,X,X,X,X,X,X
+States,South Carolina,2020,4,627,73,45,18.82,11.64,7.18
+States,South Dakota,2020,4,74,1,2,4.05,1.35,2.7
+States,Tennessee,2020,4,126,18,6,19.05,14.29,4.76
+States,Texas,2020,4,5686,1281,551,32.22,22.53,9.69
+States,Utah,2020,4,2045,330,338,32.67,16.14,16.53
+States,Vermont,2020,4,350,30,60,25.71,8.57,17.14
+States,Virginia,2020,4,529,55,64,22.5,10.4,12.1
+States,Washington,2020,4,2293,260,174,18.93,11.34,7.59
+States,West Virginia,2020,4,936,62,112,18.59,6.62,11.97
+States,Wisconsin,2020,4,4144,469,761,29.68,11.32,18.36
+States,Wyoming,2020,4,115,35,31,57.39,30.43,26.96
+States,Puerto Rico,2020,4,0,0,0,0,0,0
+States,Virgin Islands,2020,4,X,X,X,X,X,X
+States,New York City,2020,4,X,X,X,X,X,X
+States,Alabama,2020,5,1106,165,42,18.72,14.92,3.8
+States,Alaska,2020,5,13,0,3,23.08,0,23.08
+States,Arizona,2020,5,338,46,16,18.34,13.61,4.73
+States,Arkansas,2020,5,613,119,167,46.66,19.41,27.24
+States,California,2020,5,6118,1328,553,30.75,21.71,9.04
+States,Colorado,2020,5,1472,271,158,29.14,18.41,10.73
+States,Connecticut,2020,5,2199,231,566,36.24,10.5,25.74
+States,Delaware,2020,5,656,146,42,28.66,22.26,6.4
+States,District of Columbia,2020,5,X,X,X,X,X,X
+States,Florida,2020,5,X,X,X,X,X,X
+States,Georgia,2020,5,2233,425,129,24.81,19.03,5.78
+States,Hawaii,2020,5,456,50,19,15.13,10.96,4.17
+States,Idaho,2020,5,105,15,1,15.24,14.29,0.95
+States,Illinois,2020,5,765,130,126,33.46,16.99,16.47
+States,Indiana,2020,5,446,45,68,25.34,10.09,15.25
+States,Iowa,2020,5,402,50,92,35.32,12.44,22.89
+States,Kansas,2020,5,187,20,9,15.51,10.7,4.81
+States,Kentucky,2020,5,1032,108,105,20.64,10.47,10.17
+States,Louisiana,2020,5,770,180,30,27.27,23.38,3.9
+States,Maine,2020,5,182,22,26,26.37,12.09,14.29
+States,Maryland,2020,5,668,105,127,34.73,15.72,19.01
+States,Massachusetts,2020,5,2467,427,569,40.37,17.31,23.06
+States,Michigan,2020,5,3877,604,682,33.17,15.58,17.59
+States,Minnesota,2020,5,647,85,52,21.17,13.14,8.04
+States,Mississippi,2020,5,202,23,9,15.84,11.39,4.46
+States,Missouri,2020,5,3266,577,571,35.15,17.67,17.48
+States,Montana,2020,5,415,78,44,29.4,18.8,10.6
+States,Nebraska,2020,5,203,15,45,29.56,7.39,22.17
+States,Nevada,2020,5,61,22,2,39.34,36.07,3.28
+States,New Hampshire,2020,5,X,X,X,X,X,X
+States,New Jersey,2020,5,X,X,X,X,X,X
+States,New Mexico,2020,5,862,108,99,24.01,12.53,11.48
+States,New York,2020,5,4085,641,477,27.37,15.69,11.68
+States,North Carolina,2020,5,413,59,39,23.73,14.29,9.44
+States,North Dakota,2020,5,577,107,96,35.18,18.54,16.64
+States,Ohio,2020,5,5616,1051,977,36.11,18.71,17.4
+States,Oklahoma,2020,5,490,57,45,20.82,11.63,9.18
+States,Oregon,2020,5,3075,312,289,19.54,10.15,9.4
+States,Pennsylvania,2020,5,1451,242,274,35.56,16.68,18.88
+States,Rhode Island,2020,5,X,X,X,X,X,X
+States,South Carolina,2020,5,814,123,63,22.85,15.11,7.74
+States,South Dakota,2020,5,90,3,6,10,3.33,6.67
+States,Tennessee,2020,5,184,34,10,23.91,18.48,5.43
+States,Texas,2020,5,7032,1694,734,34.53,24.09,10.44
+States,Utah,2020,5,2292,389,344,31.98,16.97,15.01
+States,Vermont,2020,5,401,55,81,33.92,13.72,20.2
+States,Virginia,2020,5,674,105,77,27,15.58,11.42
+States,Washington,2020,5,1905,242,114,18.69,12.7,5.98
+States,West Virginia,2020,5,1189,130,171,25.32,10.93,14.38
+States,Wisconsin,2020,5,4911,695,912,32.72,14.15,18.57
+States,Wyoming,2020,5,95,16,16,33.68,16.84,16.84
+States,Puerto Rico,2020,5,0,0,0,0,0,0
+States,Virgin Islands,2020,5,X,X,X,X,X,X
+States,New York City,2020,5,X,X,X,X,X,X
+States,Alabama,2020,6,1212,199,42,19.88,16.42,3.47
+States,Alaska,2020,6,15,1,1,13.33,6.67,6.67
+States,Arizona,2020,6,341,60,16,22.29,17.6,4.69
+States,Arkansas,2020,6,668,110,180,43.41,16.47,26.95
+States,California,2020,6,5778,1161,448,27.85,20.09,7.75
+States,Colorado,2020,6,1463,357,120,32.6,24.4,8.2
+States,Connecticut,2020,6,2276,263,501,33.57,11.56,22.01
+States,Delaware,2020,6,573,119,47,28.97,20.77,8.2
+States,District of Columbia,2020,6,X,X,X,X,X,X
+States,Florida,2020,6,X,X,X,X,X,X
+States,Georgia,2020,6,2359,391,163,23.48,16.57,6.91
+States,Hawaii,2020,6,536,51,24,13.99,9.51,4.48
+States,Idaho,2020,6,114,4,3,6.14,3.51,2.63
+States,Illinois,2020,6,873,192,150,39.18,21.99,17.18
+States,Indiana,2020,6,442,48,58,23.98,10.86,13.12
+States,Iowa,2020,6,475,76,112,39.58,16,23.58
+States,Kansas,2020,6,171,20,14,19.88,11.7,8.19
+States,Kentucky,2020,6,1128,119,124,21.54,10.55,10.99
+States,Louisiana,2020,6,813,196,20,26.57,24.11,2.46
+States,Maine,2020,6,201,31,32,31.34,15.42,15.92
+States,Maryland,2020,6,628,109,120,36.46,17.36,19.11
+States,Massachusetts,2020,6,2512,496,520,40.45,19.75,20.7
+States,Michigan,2020,6,4048,834,551,34.21,20.6,13.61
+States,Minnesota,2020,6,737,111,50,21.85,15.06,6.78
+States,Mississippi,2020,6,196,38,13,26.02,19.39,6.63
+States,Missouri,2020,6,3585,701,641,37.43,19.55,17.88
+States,Montana,2020,6,473,91,13,21.99,19.24,2.75
+States,Nebraska,2020,6,184,15,42,30.98,8.15,22.83
+States,Nevada,2020,6,57,22,4,45.61,38.6,7.02
+States,New Hampshire,2020,6,X,X,X,X,X,X
+States,New Jersey,2020,6,X,X,X,X,X,X
+States,New Mexico,2020,6,789,92,59,19.14,11.66,7.48
+States,New York,2020,6,3909,628,510,29.11,16.07,13.05
+States,North Carolina,2020,6,396,52,41,23.48,13.13,10.35
+States,North Dakota,2020,6,632,154,104,40.82,24.37,16.46
+States,Ohio,2020,6,5697,1314,873,38.39,23.06,15.32
+States,Oklahoma,2020,6,440,58,26,19.09,13.18,5.91
+States,Oregon,2020,6,2649,282,177,17.33,10.65,6.68
+States,Pennsylvania,2020,6,1202,224,197,35.02,18.64,16.39
+States,Rhode Island,2020,6,X,X,X,X,X,X
+States,South Carolina,2020,6,926,151,70,23.87,16.31,7.56
+States,South Dakota,2020,6,73,7,4,15.07,9.59,5.48
+States,Tennessee,2020,6,139,18,10,20.14,12.95,7.19
+States,Texas,2020,6,6196,1423,376,29.03,22.97,6.07
+States,Utah,2020,6,2120,380,259,30.14,17.92,12.22
+States,Vermont,2020,6,301,46,50,31.89,15.28,16.61
+States,Virginia,2020,6,685,108,84,28.03,15.77,12.26
+States,Washington,2020,6,1805,196,87,15.68,10.86,4.82
+States,West Virginia,2020,6,1493,120,331,30.21,8.04,22.17
+States,Wisconsin,2020,6,5033,1073,941,40.02,21.32,18.7
+States,Wyoming,2020,6,64,9,15,37.5,14.06,23.44
+States,Puerto Rico,2020,6,0,0,0,0,0,0
+States,Virgin Islands,2020,6,X,X,X,X,X,X
+States,New York City,2020,6,X,X,X,X,X,X
+States,Alabama,2020,7,1121,150,35,16.5,13.38,3.12
+States,Alaska,2020,7,28,1,1,7.14,3.57,3.57
+States,Arizona,2020,7,324,46,9,16.98,14.2,2.78
+States,Arkansas,2020,7,676,124,144,39.64,18.34,21.3
+States,California,2020,7,5626,1238,400,29.11,22,7.11
+States,Colorado,2020,7,1509,304,108,27.3,20.15,7.16
+States,Connecticut,2020,7,1918,240,379,32.27,12.51,19.76
+States,Delaware,2020,7,557,119,31,26.93,21.36,5.57
+States,District of Columbia,2020,7,X,X,X,X,X,X
+States,Florida,2020,7,X,X,X,X,X,X
+States,Georgia,2020,7,2102,295,98,18.7,14.03,4.66
+States,Hawaii,2020,7,470,66,15,17.23,14.04,3.19
+States,Idaho,2020,7,89,9,5,15.73,10.11,5.62
+States,Illinois,2020,7,809,161,98,32.01,19.9,12.11
+States,Indiana,2020,7,470,67,69,28.94,14.26,14.68
+States,Iowa,2020,7,464,65,107,37.07,14.01,23.06
+States,Kansas,2020,7,216,34,12,21.3,15.74,5.56
+States,Kentucky,2020,7,1069,109,84,18.05,10.2,7.86
+States,Louisiana,2020,7,770,164,9,22.47,21.3,1.17
+States,Maine,2020,7,234,38,43,34.62,16.24,18.38
+States,Maryland,2020,7,621,133,81,34.46,21.42,13.04
+States,Massachusetts,2020,7,2119,413,379,37.38,19.49,17.89
+States,Michigan,2020,7,3964,987,482,37.06,24.9,12.16
+States,Minnesota,2020,7,699,129,50,25.61,18.45,7.15
+States,Mississippi,2020,7,201,29,9,18.91,14.43,4.48
+States,Missouri,2020,7,3760,838,545,36.78,22.29,14.49
+States,Montana,2020,7,506,75,38,22.33,14.82,7.51
+States,Nebraska,2020,7,160,10,26,22.5,6.25,16.25
+States,Nevada,2020,7,40,13,2,37.5,32.5,5
+States,New Hampshire,2020,7,X,X,X,X,X,X
+States,New Jersey,2020,7,X,X,X,X,X,X
+States,New Mexico,2020,7,722,93,29,16.9,12.88,4.02
+States,New York,2020,7,3903,671,351,26.18,17.19,8.99
+States,North Carolina,2020,7,342,39,36,21.93,11.4,10.53
+States,North Dakota,2020,7,815,286,85,45.52,35.09,10.43
+States,Ohio,2020,7,5527,1299,752,37.11,23.5,13.61
+States,Oklahoma,2020,7,491,88,36,25.25,17.92,7.33
+States,Oregon,2020,7,2598,262,155,16.05,10.08,5.97
+States,Pennsylvania,2020,7,1237,257,161,33.79,20.78,13.02
+States,Rhode Island,2020,7,X,X,X,X,X,X
+States,South Carolina,2020,7,811,118,55,21.33,14.55,6.78
+States,South Dakota,2020,7,79,6,4,12.66,7.59,5.06
+States,Tennessee,2020,7,131,17,6,17.56,12.98,4.58
+States,Texas,2020,7,5689,1339,320,29.16,23.54,5.62
+States,Utah,2020,7,2099,453,209,31.54,21.58,9.96
+States,Vermont,2020,7,402,66,62,31.84,16.42,15.42
+States,Virginia,2020,7,687,108,72,26.2,15.72,10.48
+States,Washington,2020,7,1853,241,71,16.84,13.01,3.83
+States,West Virginia,2020,7,1257,110,264,29.75,8.75,21
+States,Wisconsin,2020,7,4869,1274,803,42.66,26.17,16.49
+States,Wyoming,2020,7,68,10,16,38.24,14.71,23.53
+States,Puerto Rico,2020,7,0,0,0,0,0,0
+States,Virgin Islands,2020,7,X,X,X,X,X,X
+States,New York City,2020,7,X,X,X,X,X,X
+States,Alabama,2020,8,984,103,29,13.41,10.47,2.95
+States,Alaska,2020,8,32,1,0,3.13,3.13,0
+States,Arizona,2020,8,306,31,7,12.42,10.13,2.29
+States,Arkansas,2020,8,539,87,127,39.7,16.14,23.56
+States,California,2020,8,4833,1001,329,27.52,20.71,6.81
+States,Colorado,2020,8,1366,279,81,26.35,20.42,5.93
+States,Connecticut,2020,8,1683,232,236,27.81,13.78,14.02
+States,Delaware,2020,8,501,84,25,21.76,16.77,4.99
+States,District of Columbia,2020,8,X,X,X,X,X,X
+States,Florida,2020,8,X,X,X,X,X,X
+States,Georgia,2020,8,1809,206,78,15.7,11.39,4.31
+States,Hawaii,2020,8,388,37,12,12.63,9.54,3.09
+States,Idaho,2020,8,127,19,1,15.75,14.96,0.79
+States,Illinois,2020,8,836,195,86,33.61,23.33,10.29
+States,Indiana,2020,8,475,77,70,30.95,16.21,14.74
+States,Iowa,2020,8,507,111,138,49.11,21.89,27.22
+States,Kansas,2020,8,172,35,10,26.16,20.35,5.81
+States,Kentucky,2020,8,988,94,79,17.51,9.51,8
+States,Louisiana,2020,8,662,158,8,25.08,23.87,1.21
+States,Maine,2020,8,267,42,52,35.21,15.73,19.48
+States,Maryland,2020,8,588,121,66,31.8,20.58,11.22
+States,Massachusetts,2020,8,1854,383,212,32.09,20.66,11.43
+States,Michigan,2020,8,3980,1014,378,34.97,25.48,9.5
+States,Minnesota,2020,8,704,138,28,23.58,19.6,3.98
+States,Mississippi,2020,8,171,26,9,20.47,15.2,5.26
+States,Missouri,2020,8,3463,758,436,34.48,21.89,12.59
+States,Montana,2020,8,422,59,34,22.04,13.98,8.06
+States,Nebraska,2020,8,155,23,27,32.26,14.84,17.42
+States,Nevada,2020,8,X,X,X,X,X,X
+States,New Hampshire,2020,8,X,X,X,X,X,X
+States,New Jersey,2020,8,X,X,X,X,X,X
+States,New Mexico,2020,8,454,85,18,22.69,18.72,3.96
+States,New York,2020,8,3441,542,253,23.1,15.75,7.35
+States,North Carolina,2020,8,320,37,29,20.63,11.56,9.06
+States,North Dakota,2020,8,756,292,61,46.69,38.62,8.07
+States,Ohio,2020,8,5324,1216,588,33.88,22.84,11.04
+States,Oklahoma,2020,8,517,133,15,28.63,25.73,2.9
+States,Oregon,2020,8,2728,337,154,18,12.35,5.65
+States,Pennsylvania,2020,8,1088,230,117,31.89,21.14,10.75
+States,Rhode Island,2020,8,X,X,X,X,X,X
+States,South Carolina,2020,8,644,79,31,17.08,12.27,4.81
+States,South Dakota,2020,8,51,4,1,9.8,7.84,1.96
+States,Tennessee,2020,8,115,11,6,14.78,9.57,5.22
+States,Texas,2020,8,6029,1316,280,26.47,21.83,4.64
+States,Utah,2020,8,1963,423,174,30.41,21.55,8.86
+States,Vermont,2020,8,402,81,52,33.08,20.15,12.94
+States,Virginia,2020,8,719,131,53,25.59,18.22,7.37
+States,Washington,2020,8,1227,160,36,15.97,13.04,2.93
+States,West Virginia,2020,8,1094,93,141,21.39,8.5,12.89
+States,Wisconsin,2020,8,5349,1521,808,43.54,28.44,15.11
+States,Wyoming,2020,8,38,4,7,28.95,10.53,18.42
+States,Puerto Rico,2020,8,0,0,0,0,0,0
+States,Virgin Islands,2020,8,X,X,X,X,X,X
+States,New York City,2020,8,X,X,X,X,X,X
+States,Alabama,2020,9,753,72,19,12.08,9.56,2.52
+States,Alaska,2020,9,28,1,0,3.57,3.57,0
+States,Arizona,2020,9,253,17,4,8.3,6.72,1.58
+States,Arkansas,2020,9,545,123,86,38.35,22.57,15.78
+States,California,2020,9,5115,951,303,24.52,18.59,5.92
+States,Colorado,2020,9,1314,226,54,21.31,17.2,4.11
+States,Connecticut,2020,9,1532,189,136,21.21,12.34,8.88
+States,Delaware,2020,9,569,81,20,17.75,14.24,3.51
+States,District of Columbia,2020,9,X,X,X,X,X,X
+States,Florida,2020,9,X,X,X,X,X,X
+States,Georgia,2020,9,1518,152,53,13.5,10.01,3.49
+States,Hawaii,2020,9,300,31,16,15.67,10.33,5.33
+States,Idaho,2020,9,163,34,4,23.31,20.86,2.45
+States,Illinois,2020,9,797,205,64,33.75,25.72,8.03
+States,Indiana,2020,9,461,70,50,26.03,15.18,10.85
+States,Iowa,2020,9,472,96,104,42.37,20.34,22.03
+States,Kansas,2020,9,177,33,11,24.86,18.64,6.21
+States,Kentucky,2020,9,997,97,66,16.35,9.73,6.62
+States,Louisiana,2020,9,327,41,4,13.76,12.54,1.22
+States,Maine,2020,9,260,51,50,38.85,19.62,19.23
+States,Maryland,2020,9,563,141,34,31.08,25.04,6.04
+States,Massachusetts,2020,9,1762,312,178,27.81,17.71,10.1
+States,Michigan,2020,9,3868,996,270,32.73,25.75,6.98
+States,Minnesota,2020,9,726,162,11,23.83,22.31,1.52
+States,Mississippi,2020,9,168,20,8,16.67,11.9,4.76
+States,Missouri,2020,9,3513,735,383,31.82,20.92,10.9
+States,Montana,2020,9,475,120,37,33.05,25.26,7.79
+States,Nebraska,2020,9,158,15,15,18.99,9.49,9.49
+States,Nevada,2020,9,58,18,1,32.76,31.03,1.72
+States,New Hampshire,2020,9,X,X,X,X,X,X
+States,New Jersey,2020,9,X,X,X,X,X,X
+States,New Mexico,2020,9,476,51,11,13.03,10.71,2.31
+States,New York,2020,9,3692,594,233,22.4,16.09,6.31
+States,North Carolina,2020,9,316,40,20,18.99,12.66,6.33
+States,North Dakota,2020,9,710,247,54,42.39,34.79,7.61
+States,Ohio,2020,9,4838,881,457,27.66,18.21,9.45
+States,Oklahoma,2020,9,451,115,8,27.27,25.5,1.77
+States,Oregon,2020,9,2823,396,105,17.75,14.03,3.72
+States,Pennsylvania,2020,9,1066,219,82,28.24,20.54,7.69
+States,Rhode Island,2020,9,X,X,X,X,X,X
+States,South Carolina,2020,9,639,67,22,13.93,10.49,3.44
+States,South Dakota,2020,9,75,6,4,13.33,8,5.33
+States,Tennessee,2020,9,103,13,5,17.48,12.62,4.85
+States,Texas,2020,9,4944,975,171,23.18,19.72,3.46
+States,Utah,2020,9,1832,385,133,28.28,21.02,7.26
+States,Vermont,2020,9,314,71,32,32.8,22.61,10.19
+States,Virginia,2020,9,635,90,37,20,14.17,5.83
+States,Washington,2020,9,1694,278,45,19.07,16.41,2.66
+States,West Virginia,2020,9,1148,145,102,21.52,12.63,8.89
+States,Wisconsin,2020,9,4933,1447,588,41.25,29.33,11.92
+States,Wyoming,2020,9,65,14,7,32.31,21.54,10.77
+States,Puerto Rico,2020,9,0,0,0,0,0,0
+States,Virgin Islands,2020,9,X,X,X,X,X,X
+States,New York City,2020,9,X,X,X,X,X,X
+States,Alabama,2020,10,969,86,17,10.63,8.88,1.75
+States,Alaska,2020,10,29,8,0,27.59,27.59,0
+States,Arizona,2020,10,244,16,3,7.79,6.56,1.23
+States,Arkansas,2020,10,436,97,96,44.27,22.25,22.02
+States,California,2020,10,4993,756,255,20.25,15.14,5.11
+States,Colorado,2020,10,950,150,29,18.84,15.79,3.05
+States,Connecticut,2020,10,1319,158,74,17.59,11.98,5.61
+States,Delaware,2020,10,X,X,X,X,X,X
+States,District of Columbia,2020,10,X,X,X,X,X,X
+States,Florida,2020,10,X,X,X,X,X,X
+States,Georgia,2020,10,1341,144,62,15.36,10.74,4.62
+States,Hawaii,2020,10,254,14,10,9.45,5.51,3.94
+States,Idaho,2020,10,179,37,4,22.91,20.67,2.23
+States,Illinois,2020,10,497,107,42,29.98,21.53,8.45
+States,Indiana,2020,10,473,77,41,24.95,16.28,8.67
+States,Iowa,2020,10,521,123,102,43.19,23.61,19.58
+States,Kansas,2020,10,170,25,4,17.06,14.71,2.35
+States,Kentucky,2020,10,1073,98,56,14.35,9.13,5.22
+States,Louisiana,2020,10,389,54,6,15.42,13.88,1.54
+States,Maine,2020,10,247,43,43,34.82,17.41,17.41
+States,Maryland,2020,10,340,72,13,25,21.18,3.82
+States,Massachusetts,2020,10,1499,246,85,22.08,16.41,5.67
+States,Michigan,2020,10,3844,894,190,28.2,23.26,4.94
+States,Minnesota,2020,10,769,149,16,21.46,19.38,2.08
+States,Mississippi,2020,10,172,22,2,13.95,12.79,1.16
+States,Missouri,2020,10,991,138,68,20.79,13.93,6.86
+States,Montana,2020,10,493,133,35,34.08,26.98,7.1
+States,Nebraska,2020,10,155,19,14,21.29,12.26,9.03
+States,Nevada,2020,10,74,16,0,21.62,21.62,0
+States,New Hampshire,2020,10,X,X,X,X,X,X
+States,New Jersey,2020,10,X,X,X,X,X,X
+States,New Mexico,2020,10,722,71,6,10.66,9.83,0.83
+States,New York,2020,10,3587,445,138,16.25,12.41,3.85
+States,North Carolina,2020,10,338,29,8,10.95,8.58,2.37
+States,North Dakota,2020,10,790,271,29,37.97,34.3,3.67
+States,Ohio,2020,10,4318,850,299,26.61,19.69,6.92
+States,Oklahoma,2020,10,503,95,10,20.87,18.89,1.99
+States,Oregon,2020,10,3719,553,95,17.42,14.87,2.55
+States,Pennsylvania,2020,10,1037,203,46,24.01,19.58,4.44
+States,Rhode Island,2020,10,X,X,X,X,X,X
+States,South Carolina,2020,10,657,79,24,15.68,12.02,3.65
+States,South Dakota,2020,10,105,12,2,13.33,11.43,1.9
+States,Tennessee,2020,10,147,32,10,28.57,21.77,6.8
+States,Texas,2020,10,5311,899,180,20.32,16.93,3.39
+States,Utah,2020,10,1935,407,88,25.58,21.03,4.55
+States,Vermont,2020,10,285,54,26,28.07,18.95,9.12
+States,Virginia,2020,10,694,122,32,22.19,17.58,4.61
+States,Washington,2020,10,2202,335,55,17.71,15.21,2.5
+States,West Virginia,2020,10,1282,213,121,26.05,16.61,9.44
+States,Wisconsin,2020,10,X,X,X,X,X,X
+States,Wyoming,2020,10,32,3,4,21.88,9.38,12.5
+States,Puerto Rico,2020,10,0,0,0,0,0,0
+States,Virgin Islands,2020,10,X,X,X,X,X,X
+States,New York City,2020,10,X,X,X,X,X,X
+States,Alabama,2020,11,1062,69,26,8.95,6.5,2.45
+States,Alaska,2020,11,X,X,X,X,X,X
+States,Arizona,2020,11,234,15,2,7.26,6.41,0.85
+States,Arkansas,2020,11,635,131,75,32.44,20.63,11.81
+States,California,2020,11,515,25,11,6.99,4.85,2.14
+States,Colorado,2020,11,1535,154,21,11.4,10.03,1.37
+States,Connecticut,2020,11,508,48,22,13.78,9.45,4.33
+States,Delaware,2020,11,X,X,X,X,X,X
+States,District of Columbia,2020,11,X,X,X,X,X,X
+States,Florida,2020,11,X,X,X,X,X,X
+States,Georgia,2020,11,1485,99,66,11.11,6.67,4.44
+States,Hawaii,2020,11,259,12,14,10.04,4.63,5.41
+States,Idaho,2020,11,376,75,4,21.01,19.95,1.06
+States,Illinois,2020,11,560,78,49,22.68,13.93,8.75
+States,Indiana,2020,11,403,39,18,14.14,9.68,4.47
+States,Iowa,2020,11,512,90,75,32.23,17.58,14.65
+States,Kansas,2020,11,206,9,5,6.8,4.37,2.43
+States,Kentucky,2020,11,926,75,32,11.56,8.1,3.46
+States,Louisiana,2020,11,144,19,1,13.89,13.19,0.69
+States,Maine,2020,11,345,48,45,26.96,13.91,13.04
+States,Maryland,2020,11,205,41,14,26.83,20,6.83
+States,Massachusetts,2020,11,1422,150,79,16.1,10.55,5.56
+States,Michigan,2020,11,2060,414,60,23.01,20.1,2.91
+States,Minnesota,2020,11,X,X,X,X,X,X
+States,Mississippi,2020,11,171,12,0,7.02,7.02,0
+States,Missouri,2020,11,2811,369,188,19.82,13.13,6.69
+States,Montana,2020,11,490,87,17,21.22,17.76,3.47
+States,Nebraska,2020,11,184,20,13,17.93,10.87,7.07
+States,Nevada,2020,11,X,X,X,X,X,X
+States,New Hampshire,2020,11,X,X,X,X,X,X
+States,New Jersey,2020,11,X,X,X,X,X,X
+States,New Mexico,2020,11,748,71,25,12.83,9.49,3.34
+States,New York,2020,11,2705,278,65,12.68,10.28,2.4
+States,North Carolina,2020,11,X,X,X,X,X,X
+States,North Dakota,2020,11,709,171,21,27.08,24.12,2.96
+States,Ohio,2020,11,4736,611,209,17.31,12.9,4.41
+States,Oklahoma,2020,11,559,92,10,18.25,16.46,1.79
+States,Oregon,2020,11,4633,457,87,11.74,9.86,1.88
+States,Pennsylvania,2020,11,487,45,11,11.5,9.24,2.26
+States,Rhode Island,2020,11,X,X,X,X,X,X
+States,South Carolina,2020,11,927,82,34,12.51,8.85,3.67
+States,South Dakota,2020,11,204,21,2,11.27,10.29,0.98
+States,Tennessee,2020,11,63,5,6,17.46,7.94,9.52
+States,Texas,2020,11,5162,507,145,12.63,9.82,2.81
+States,Utah,2020,11,2284,365,64,18.78,15.98,2.8
+States,Vermont,2020,11,381,69,18,22.83,18.11,4.72
+States,Virginia,2020,11,859,157,35,22.35,18.28,4.07
+States,Washington,2020,11,515,42,4,8.93,8.16,0.78
+States,West Virginia,2020,11,30,2,2,13.33,6.67,6.67
+States,Wisconsin,2020,11,X,X,X,X,X,X
+States,Wyoming,2020,11,40,2,2,10,5,5
+States,Puerto Rico,2020,11,0,0,0,0,0,0
+States,Virgin Islands,2020,11,X,X,X,X,X,X
+States,New York City,2020,11,X,X,X,X,X,X
