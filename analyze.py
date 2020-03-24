@@ -63,7 +63,7 @@ class ExponentialGrowthRateEstimator(object):
         self.glm = sm.GLM(covid_cases, sm.add_constant(day), family=fam)
         self.fitted_glm = self.glm.fit()
 
-        return self.fit
+        return self.fitted_glm
 
     def _exposure_adjustment(self, delta_ts):
         return np.array([self._exposure_adjustment_for_interval_length(delta_t) for delta_t in delta_ts])
