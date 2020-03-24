@@ -11,6 +11,6 @@ days = np.array(range(2, 20))  # days since Mar 1
 print(deaths, days)
 
 model = analyze.ExponentialGrowthRateEstimator(cumulative=True)
-model.fit(deaths, days)
+model.fit(day=days, cases=deaths)
 print(model.summary())
 print("Growth rate is {}".format(model.growth_rate()))
