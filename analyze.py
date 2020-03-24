@@ -44,7 +44,7 @@ class ExponentialGrowthRateEstimator(object):
             print(exposure_adjustment)
             day = day[1:] + exposure_adjustment
 
-        self.glm = sm.GLM(covid_cases, day, family=sm.families.Poisson())
+        self.glm = sm.GLM(covid_cases, sm.add_constant(day), family=sm.families.Poisson())
         self.fitted_glm = self.glm.fit()
 
         return self.fit
@@ -63,7 +63,7 @@ class ExponentialGrowthRateEstimator(object):
     def growth_rate(self):
         if self.fitted_glm is None:
             return "No model fit yet"
-        return np.exp(self.fitted_glm.params[0]) - 1
+        return np.exp(self.fitted_glm.params[1]) - 1
 
 
 def test(active_cases=False):
