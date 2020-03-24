@@ -1,5 +1,5 @@
 # Just setup the COVID-19 folder, or update it if it exists.
-if [ -d "./COVID-19" ]
+if [ -d "./COVID-19/csse_covid_19_data" ]
 then
     echo "Updating contents of COVID-19."
     cd COVID-19
@@ -7,6 +7,7 @@ then
     cd ..
 else
     echo "Cloning the COVID-19 JHU repository."
+    rm -r COVID-19
     git clone git@github.com:CSSEGISandData/COVID-19.git
 fi
 # Make sure that South Korea is correctly named.
