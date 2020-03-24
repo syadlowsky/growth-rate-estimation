@@ -37,10 +37,18 @@ for row in reader:
   if first:
     first = False
   else:
-    print(row)
     if row[1] == 'US' and row[0] != 'US' and row[0][-4] != ',':
-      series = np.array(list(map(float, row[4:-1])))
+      if row[-1] == '':
+        row[-1] = -1
+      series = np.array(list(map(float, row[4:])))
       us_counts[row[0]] = series
+f = open('data/us_mar23.csv')
+reader = csv.reader(f)
+for row in reader:
+  count = row[3]
+  if count == '':
+    count = -1
+  us_counts[row[0]][-1] = int(count)
 
 def calculate_growth(series, thresh=10, start=5):
   days = np.arange(0, series.shape[0])
