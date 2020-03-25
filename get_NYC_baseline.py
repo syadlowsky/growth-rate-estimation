@@ -24,8 +24,7 @@ def get_baselines(csv,disease_type,save_dir='data/'):
         #next_monday = pd.Timestamp(next_weekday(d, 0))
         next_monday = end_date - pd.Timedelta(days=14)
         this_slice = df[(df['Date']>=next_monday)&(df['Date']<=end_date)]
-        if year== 2020:
-            this_slice = this_slice[(this_slice['Dim2Value']=='All age groups')&(this_slice['Dim1Value']=='Citywide')]
+        this_slice = this_slice[(this_slice['Dim2Value']=='All age groups')&(this_slice['Dim1Value']=='Citywide')]
         x = this_slice['Date'].dt.weekday.values
         y = this_slice['Count'].values
         xs.append(x)
@@ -33,11 +32,10 @@ def get_baselines(csv,disease_type,save_dir='data/'):
 
     xs = np.concatenate(xs).ravel()
     ys = np.concatenate(ys).ravel()
-
     df = pd.DataFrame(np.array([xs,ys]).T,columns=['Day of Week','Count'])
     #save raw data for all years
     df.to_pickle(save_dir+"raw_baseline_2017-2019_mostrecent2wks_"+disease_type+".pkl")
-    quantiles = df.groupby(["Day of Week"]).quantile()
+    quantiles = df.groupby(["Day of Week"]).quantile(0.5)
     quantiles['mean'] = quantiles['Count']
     quantiles = quantiles.drop("Count",axis=1)
     quantiles['20%'] = df.groupby(["Day of Week"]).quantile(0.2)
