@@ -41,19 +41,22 @@ def calculate_growth(series, thresh=10, start=5):
   days = days[keep]
   model = analyze.ExponentialGrowthRateEstimator(family='NegativeBinomial', alpha=None)
   model.fit(day=days, cases=series)
+  print(series)
+  print(model.fitted_glm.mu)
   est = model.growth_rate()
   low, high = model.growth_rate_confint()
   return (max(low, 0), est, high)
 
 growths = dict()
-dataset = deaths.items()
+dataset = hosps.items()
 for k, v in dataset:
   try:
     growth = calculate_growth(v, thresh = 20, start = 5)
     if growth:
+      print(' (for %s)' % k)
       growths[k] = growth
-  except Exception:
-    print('Failed to calculate for %s' % k)
+  #except Exception:
+  #  print('Failed to calculate for %s' % k)
 
 import matplotlib.pyplot as plt
 to_plot = growths
