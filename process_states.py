@@ -1,4 +1,5 @@
 import csv
+import matplotlib.pyplot as plt
 from collections import defaultdict
 import numpy as np
 from math import sqrt
@@ -39,26 +40,29 @@ def calculate_growth(series, thresh=10, start=5):
   keep = series >= start
   series = series[keep]
   days = days[keep]
+  if (days.shape[0] < 5):
+    return None
+  print(series)
+  print(days)
   model = analyze.ExponentialGrowthRateEstimator(family='NegativeBinomial', alpha=None)
   model.fit(day=days, cases=series)
-  print(series)
+  print(np.diff(series))
   print(model.fitted_glm.mu)
   est = model.growth_rate()
   low, high = model.growth_rate_confint()
   return (max(low, 0), est, high)
 
 growths = dict()
-dataset = hosps.items()
+dataset = deaths.items()
 for k, v in dataset:
-  try:
-    growth = calculate_growth(v, thresh = 20, start = 5)
-    if growth:
-      print(' (for %s)' % k)
-      growths[k] = growth
+  #try:
+  growth = calculate_growth(v, thresh = 20, start = 4)
+  if growth:
+    print(' (for %s)' % k)
+    growths[k] = growth
   #except Exception:
   #  print('Failed to calculate for %s' % k)
 
-import matplotlib.pyplot as plt
 to_plot = growths
 names = list(to_plot.keys())
 err_l = list([v[1]-v[0] for v in to_plot.values()])

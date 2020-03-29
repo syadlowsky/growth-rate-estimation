@@ -37,15 +37,15 @@ class ExponentialGrowthRateEstimator(object):
         covid_cases = cases - baseline
         if self.cumulative:
             # Not totally convinced this is the right way to handle irregular intervals. It seems to work ok, though. It is robust, but I don't know how biased it is.
-            covid_cases = np.diff(covid_cases)
-            exposure_lengths = np.diff(day)
+            covid_cases = np.diff(covid_cases).astype(float)
+            exposure_lengths = np.diff(day).astype(float)
             covid_cases /= exposure_lengths
             exposure_adjustment = self._exposure_adjustment(exposure_lengths)
+            print(exposure_adjustment)
             day = day[1:] + exposure_adjustment
 
         if self.family == "Poisson":
             fam = sm.families.Poisson()
-            self.glm = sm.GLM(covid_cases, sm.add_constant(day), family=fam)
         if self.family == "NegativeBinomial":
             alpha = self.alpha
             if alpha is None:
@@ -86,7 +86,6 @@ class ExponentialGrowthRateEstimator(object):
             return "No model fit yet"
         confint = self.fitted_glm.conf_int(cols=(1,))
         return np.exp(confint[0, 0]) - 1, np.exp(confint[0, 1]) - 1
-
 
 def test(active_cases=False):
     days = np.arange(100, 130)
