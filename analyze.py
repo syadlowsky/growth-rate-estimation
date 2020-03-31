@@ -55,8 +55,8 @@ class ExponentialGrowthRateEstimator(object):
                 mu = poisson_glm.mu
                 ct_response = ((covid_cases - mu) ** 2 - covid_cases) / mu
                 # Linear regression of auxiliary formula
-                ct_results = sm.OLS(ct_response, mu).fit()
-                alpha = ct_results.params[0]
+                ct_results = sm.OLS(ct_response, mu ** 2).fit()
+                alpha = np.min(ct_results.params[0], 0)
                 print("Using alpha = {}".format(alpha))
             fam = sm.families.NegativeBinomial(alpha=alpha)
 
