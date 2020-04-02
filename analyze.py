@@ -22,7 +22,7 @@ import numpy as np
 import statsmodels.api as sm
 
 class ExponentialGrowthRateEstimator(object):
-    def __init__(self, cumulative=True, approximate_beta=0.2, family="Poisson", alpha=None):
+    def __init__(self, cumulative=True, approximate_beta=0.2, family="NegativeBinomial", alpha=0.1):
         self.cumulative = cumulative
         self.glm = None
         self.fitted_glm = None
@@ -49,15 +49,7 @@ class ExponentialGrowthRateEstimator(object):
         if self.family == "NegativeBinomial":
             alpha = self.alpha
             if alpha is None:
-                # Use Cameron and Trivedi estimate of alpha
-                poisson_glm = sm.GLM(covid_cases, sm.add_constant(day),
-                                     family=sm.families.Poisson()).fit()
-                mu = poisson_glm.mu
-                ct_response = ((covid_cases - mu) ** 2 - covid_cases) / mu
-                # Linear regression of auxiliary formula
-                ct_results = sm.OLS(ct_response, mu ** 2).fit()
-                alpha = np.min(ct_results.params[0], 0)
-                print("Using alpha = {}".format(alpha))
+                print("Please specify a value of alpha to use with the NegativeBinomial distribution")
             fam = sm.families.NegativeBinomial(alpha=alpha)
 
         self.glm = sm.GLM(covid_cases, sm.add_constant(day), family=fam)
