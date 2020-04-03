@@ -1,4 +1,4 @@
-# Copyright 2019 Steve Yadlowsky
+# Copyright 2020 Steve Yadlowsky
 
 # Permission is hereby granted, free of charge, to any person obtaining a copy
 # of this software and associated documentation files (the "Software"), to deal
@@ -23,6 +23,12 @@ import statsmodels.api as sm
 
 class ExponentialGrowthRateEstimator(object):
     def __init__(self, cumulative=True, approximate_beta=0.2, family="NegativeBinomial", alpha=0.1):
+        """
+        Accepts hyperparameters necessary for fitting the generalized linear
+        model, and converting the observed data into data to be passed in to
+        the model fit. See the description on `fit` for more details about
+        these hyperparameters and how they are used.
+        """
         self.cumulative = cumulative
         self.glm = None
         self.fitted_glm = None
@@ -31,17 +37,38 @@ class ExponentialGrowthRateEstimator(object):
         self.alpha = alpha
 
     def fit(self, day, cases, baseline=None):
+        """
+        Fits the exponential growth model to data provided by the day and cases.
+        day is a numpy array of the date associated with a number of cases.
+        cases is the number of cases on the corresponding day.
+        baseline provides a sequence that is subtracted off the number of cases
+        to remove other cases (for example ILI cases that are not COVID-19 related).
+        
+        If self.cumulative is True, then these counts are expected to be cumulative,
+        and we take the differences between the cases on one day and the next to
+        get the new cases on a given day (which is what we fit the model to).
+        
+        If there are missing days in cumulative counts, we try to interpolate the cases
+        by finding the appropriate average cases per day and attributing them to a
+        (weighted) average day in the interval, weighted by the exponential growth factor
+        passed to the constructor as approximate_beta.
+        
+        If there are missing days in "new" cases, we assume that the cases reported for
+        each day are only the new cases for that day, not including cases from missing
+        days.
+        """
         if baseline is None:
             baseline = np.zeros(cases.shape[0])
 
         covid_cases = cases - baseline
         if self.cumulative:
-            # Not totally convinced this is the right way to handle irregular intervals. It seems to work ok, though. It is robust, but I don't know how biased it is.
+            # Not totally convinced this is the right way to handle irregular
+            # intervals. It seems to work ok, though. It is robust, but I
+            # don't know how biased it is.
             covid_cases = np.diff(covid_cases).astype(float)
             exposure_lengths = np.diff(day).astype(float)
             covid_cases /= exposure_lengths
             exposure_adjustment = self._exposure_adjustment(exposure_lengths)
-            print(exposure_adjustment)
             day = day[1:] + exposure_adjustment
 
         if self.family == "Poisson":
@@ -74,6 +101,11 @@ class ExponentialGrowthRateEstimator(object):
         return np.exp(self.fitted_glm.params[1]) - 1
 
     def growth_rate_confint(self):
+        """
+        Returns 95% confidence intervals for the growth rate,
+        based on the family of distributions used for the generalized
+        linear model.
+        """
         if self.fitted_glm is None:
             return "No model fit yet"
         confint = self.fitted_glm.conf_int(cols=(1,))

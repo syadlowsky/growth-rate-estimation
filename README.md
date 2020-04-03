@@ -18,8 +18,9 @@ The `growth_rate` and `growth_rate_confint` methods return the growth rate and 9
 respectively.
 
 ## Example usage
-See the Jupyter notebooks in `Process States.ipynb` or `Main figures.ipynb` shows examples of calling this
-analysis code.
+A simple example of calling the analysis code is available in `Simple Example.ipynb`. 
+See the Jupyter notebooks in `Process States.ipynb` or `Main figures.ipynb` for more complex
+examples of how we used this analysis to analyze and plot results for many regions at once.
 
 ## Data sourcing
 jhu_process_data.py will read the JHU data into: dict['country']['city']=array.
