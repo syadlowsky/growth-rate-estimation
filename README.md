@@ -25,3 +25,10 @@ examples of how we used this analysis to analyze and plot results for many regio
 ## Data sourcing
 jhu_process_data.py will read the JHU data into: dict['country']['city']=array.
 The JHU repository is currently being reformatted so there may be some inconsistencies.
+
+To pull the CSV files for global death data and state-level data, run the following two scripts:
+
+sh pull_global.sh
+sh pull_states.sh
+
+You'l probably want to run these roughly daily to keep the sources up to date.
